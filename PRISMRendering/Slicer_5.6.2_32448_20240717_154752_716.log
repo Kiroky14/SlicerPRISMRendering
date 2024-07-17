@@ -1,0 +1,857 @@
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Session start time .......: 20240717_154752
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Slicer version ...........: 5.6.2 (revision 32448 / f10cd8c) win-amd64 - installed release
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19045, Code Page 65001) - 64-bit
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Memory ...................: 16275 MB physical, 18707 MB virtual
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Application path .........: C:/Users/Aurelie/AppData/Local/slicer.org/Slicer 5.6.2/bin
+[DEBUG][Qt] 17.07.2024 15:47:52 [] (unknown:0) - Additional module paths ..: slicer.org/Extensions-32448/ExtraMarkups/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-scripted-modules, slicer.org/Extensions-32448/MarkupsToModel/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SlicerVirtualReality/lib/Slicer-5.6/qt-loadable-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\Sphere2MarkupPoint, slicer.org/Extensions-32448/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt/firstModule, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\test, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering/PRISMRendering
+[DEBUG][Python] 17.07.2024 15:47:55 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 17.07.2024 15:47:55 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 17.07.2024 15:47:55 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - Loading Slicer RC file [C:/Users/Aurelie/.slicerrc.py]
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - --------------------------------------------------------------------------------
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - To load a python script load_exec(script_name) in path: C:/Users/Aurelie/Documents/Github/3DSlicer/script
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - List of files in C:/Users/Aurelie/Documents/Github/3DSlicer/script:
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - test.py
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:47:56 [] (unknown:0) - --------------------------------------------------------------------------------
+[DEBUG][Qt] 17.07.2024 15:47:58 [] (unknown:0) - Switch to module:  "PRISMRendering"
+[DEBUG][Python] 17.07.2024 15:48:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - Verifying checksum
+[DEBUG][Python] 17.07.2024 15:48:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - File already exists and checksum is OK - reusing it.
+[DEBUG][Python] 17.07.2024 15:48:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Requesting load OutlineSampleData from C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc ...</b>
+[DEBUG][Qt] 17.07.2024 15:48:02 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc" "[0.12s]"
+[DEBUG][Python] 17.07.2024 15:48:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Load finished</b><p></p>
+[ERROR][VTK] 17.07.2024 15:48:04 [vtkShaderProgram (00000283254A4C80)] (vtkShaderProgram.cxx:453) - 1: #version 150
+2: #ifdef GL_ES
+3: #ifdef GL_FRAGMENT_PRECISION_HIGH
+4: precision highp float;
+5: precision highp sampler2D;
+6: precision highp sampler3D;
+7: #else
+8: precision mediump float;
+9: precision mediump sampler2D;
+10: precision mediump sampler3D;
+11: #endif
+12: #define texelFetchBuffer texelFetch
+13: #define texture1D texture
+14: #define texture2D texture
+15: #define texture3D texture
+16: #else // GL_ES
+17: #define highp
+18: #define mediump
+19: #define lowp
+20: #if __VERSION__ == 150
+21: #define texelFetchBuffer texelFetch
+22: #define texture1D texture
+23: #define texture2D texture
+24: #define texture3D texture
+25: #endif
+26: #endif // GL_ES
+27: #define varying in
+28: 
+29: 
+30: /*=========================================================================
+31: 
+32:   Program:   Visualization Toolkit
+33:   Module:    raycasterfs.glsl
+34: 
+35:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+36:   All rights reserved.
+37:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+38: 
+39:      This software is distributed WITHOUT ANY WARRANTY; without even
+40:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+41:      PURPOSE.  See the above copyright notice for more information.
+42: 
+43: =========================================================================*/
+44: 
+45: //////////////////////////////////////////////////////////////////////////////
+46: ///
+47: /// Inputs
+48: ///
+49: //////////////////////////////////////////////////////////////////////////////
+50: 
+51: /// 3D texture coordinates form vertex shader
+52: in vec3 ip_textureCoords;
+53: in vec3 ip_vertexPos;
+54: 
+55: //////////////////////////////////////////////////////////////////////////////
+56: ///
+57: /// Outputs
+58: ///
+59: //////////////////////////////////////////////////////////////////////////////
+60: 
+61: vec4 g_fragColor = vec4(0.0);
+62: 
+63: //////////////////////////////////////////////////////////////////////////////
+64: ///
+65: /// Uniforms, attributes, and globals
+66: ///
+67: //////////////////////////////////////////////////////////////////////////////
+68: vec3 g_dirStep;
+69: float g_lengthStep = 0.0;
+70: vec4 g_srcColor;
+71: vec4 g_eyePosObj;
+72: bool g_exit;
+73: bool g_skip;
+74: float g_currentT;
+75: float g_terminatePointMax;
+76: 
+77: // These describe the entire ray for this scene, not just the current depth
+78: // peeling segment. These are texture coordinates.
+79: vec3 g_rayOrigin; // Entry point of volume or clip point
+80: vec3 g_rayTermination; // Termination point (depth, clip, etc)
+81: 
+82: // These describe the current segment. If not peeling, they are initialized to
+83: // the ray endpoints.
+84: vec3 g_dataPos;
+85: vec3 g_terminatePos;
+86: 
+87: float g_jitterValue = 0.0;
+88: 
+89: uniform float VAT;
+90: uniform float gradStep;
+91: uniform float stepMax;
+92: uniform float stepMin;
+93: uniform float threshold;
+94: 
+95: 
+96: out vec4 fragOutput0;
+97: 
+98: 
+99: uniform sampler3D in_volume[1];
+100: uniform vec4 in_volume_scale[1];
+101: uniform vec4 in_volume_bias[1];
+102: uniform int in_noOfComponents;
+103: 
+104: uniform sampler2D in_depthSampler;
+105: 
+106: // Camera position
+107: uniform vec3 in_cameraPos;
+108: uniform mat4 in_volumeMatrix[1];
+109: uniform mat4 in_inverseVolumeMatrix[1];
+110: uniform mat4 in_textureDatasetMatrix[1];
+111: uniform mat4 in_inverseTextureDatasetMatrix[1];
+112: uniform mat4 in_textureToEye[1];
+113: uniform vec3 in_texMin[1];
+114: uniform vec3 in_texMax[1];
+115: uniform mat4 in_cellToPoint[1];
+116: // view and model matrices
+117: uniform mat4 in_projectionMatrix;
+118: uniform mat4 in_inverseProjectionMatrix;
+119: uniform mat4 in_modelViewMatrix;
+120: uniform mat4 in_inverseModelViewMatrix;
+121: in mat4 ip_inverseTextureDataAdjusted;
+122: 
+123: // Ray step size
+124: uniform vec3 in_cellStep[1];
+125: uniform vec2 in_scalarsRange[4];
+126: uniform vec3 in_cellSpacing[1];
+127: 
+128: // Sample distance
+129: uniform float in_sampleDistance;
+130: 
+131: // Scales
+132: uniform vec2 in_windowLowerLeftCorner;
+133: uniform vec2 in_inverseOriginalWindowSize;
+134: uniform vec2 in_inverseWindowSize;
+135: uniform vec3 in_textureExtentsMax;
+136: uniform vec3 in_textureExtentsMin;
+137: 
+138: // Material and lighting
+139: uniform vec3 in_diffuse[4];
+140: uniform vec3 in_ambient[4];
+141: uniform vec3 in_specular[4];
+142: uniform float in_shininess[4];
+143: 
+144: // Others
+145: vec3 g_rayJitter = vec3(0.0);
+146: 
+147: uniform vec2 in_averageIPRange;
+148: vec4 g_eyePosObjs[1];
+149: uniform bool in_twoSidedLighting;
+150: 
+151: 
+152:       
+153:  const float g_opacityThreshold = 1.0 - 1.0 / 255.0;
+154: 
+155: 
+156:     vec4 ComputeGradient(in sampler3D volume, vec3 pos, float gradStep)
+157:     {
+158:       vec3 g1;
+159:       g1.x = texture3D(volume, pos + vec3(gradStep,0.0,0.0) ).x;
+160:       g1.y = texture3D(volume, pos +  vec3(0.0, gradStep, 0.0)).x;
+161:       g1.z = texture3D(volume, pos +  vec3(0.0,0.0, gradStep)).x;
+162:       vec3 g2;
+163:       g2.x = texture3D(volume, pos -  vec3(gradStep,0.0,0.0)).x;
+164:       g2.y = texture3D(volume, pos -  vec3(0.0, gradStep, 0.0)).x;
+165:       g2.z = texture3D(volume, pos -  vec3(0.0,0.0, gradStep)).x;
+166:       vec3 n = (g2 - g1) / (2.0 * gradStep);
+167:       float nLength = length(n);
+168:       if(nLength > 0.0)
+169:           n = normalize(n);
+170:       else
+171:           n = vec3(0.0, 0.0, 0.0);
+172:       vec4 ret;
+173:       ret.rgb = n;
+174:       ret.a = nLength;
+175:       return ret;
+176:     }
+177: 
+178:     float sampleThreshold = threshold;
+179:     vec2 step = vec2(stepMin, stepMax);
+180:     float virtualAlpha = 0.0;
+181:     
+182: 
+183: 
+184: 
+185: #define EPSILON 0.001
+186: 
+187: // Computes the intersection between a ray and a box
+188: // The box should be axis aligned so we only give two arguments
+189: struct Hit
+190: {
+191:   float tmin;
+192:   float tmax;
+193: };
+194: 
+195: struct Ray
+196: {
+197:   vec3 origin;
+198:   vec3 dir;
+199:   vec3 invDir;
+200: };
+201: 
+202: bool BBoxIntersect(const vec3 boxMin, const vec3 boxMax, const Ray r, out Hit hit)
+203: {
+204:   vec3 tbot = r.invDir * (boxMin - r.origin);
+205:   vec3 ttop = r.invDir * (boxMax - r.origin);
+206:   vec3 tmin = min(ttop, tbot);
+207:   vec3 tmax = max(ttop, tbot);
+208:   vec2 t = max(tmin.xx, tmin.yz);
+209:   float t0 = max(t.x, t.y);
+210:   t = min(tmax.xx, tmax.yz);
+211:   float t1 = min(t.x, t.y);
+212:   hit.tmin = t0;
+213:   hit.tmax = t1;
+214:   return t1 > max(t0, 0.0);
+215: }
+216: 
+217: // As BBoxIntersect requires the inverse of the ray coords,
+218: // this function is used to avoid numerical issues
+219: void safe_0_vector(inout Ray ray)
+220: {
+221:   if(abs(ray.dir.x) < EPSILON) ray.dir.x = sign(ray.dir.x) * EPSILON;
+222:   if(abs(ray.dir.y) < EPSILON) ray.dir.y = sign(ray.dir.y) * EPSILON;
+223:   if(abs(ray.dir.z) < EPSILON) ray.dir.z = sign(ray.dir.z) * EPSILON;
+224: }
+225: 
+226: // the phase function should be normalized to 4pi for compatibility with surface rendering
+227: //VTK::PhaseFunction::Dec
+228: 
+229: uniform sampler2D in_colorTransferFunc_0[1];
+230: 
+231: 
+232: 
+233: 
+234: 
+235: 
+236: 
+237: 
+238: //VTK::GradientCache::Dec
+239: 
+240: //VTK::Transfer2D::Dec
+241: 
+242: uniform sampler2D in_gradientTransferFunc_0[1];
+243:           
+244: float computeGradientOpacity(vec4 grad)          
+245:   {          
+246:   return texture2D(in_gradientTransferFunc_0[0], vec2(grad.w, 0.0)).r;          
+247:   }
+248: 
+249: uniform sampler2D in_opacityTransferFunc_0[1];
+250:         
+251: float computeOpacity(vec4 scalar)        
+252: {        
+253:   return texture2D(in_opacityTransferFunc_0[0], vec2(scalar.w, 0)).r;        
+254: }
+255: 
+256: //VTK::ComputeRGBA2DWithGradient::Dec
+257: 
+258: // c is short for component
+259: vec4 computeGradient(in vec3 texPos, in int c, in sampler3D volume,in int index)
+260: {
+261:   // Approximate Nabla(F) derivatives with central differences.
+262:   vec3 g1; // F_front
+263:   vec3 g2; // F_back
+264:   vec3 xvec = vec3(in_cellStep[index].x, 0.0, 0.0);
+265:   vec3 yvec = vec3(0.0, in_cellStep[index].y, 0.0);
+266:   vec3 zvec = vec3(0.0, 0.0, in_cellStep[index].z);
+267:   vec3 texPosPvec[3];
+268:   texPosPvec[0] = texPos + xvec;
+269:   texPosPvec[1] = texPos + yvec;
+270:   texPosPvec[2] = texPos + zvec;
+271:   vec3 texPosNvec[3];
+272:   texPosNvec[0] = texPos - xvec;
+273:   texPosNvec[1] = texPos - yvec;
+274:   texPosNvec[2] = texPos - zvec;
+275:   g1.x = texture3D(volume, vec3(texPosPvec[0]))[c];
+276:   g1.y = texture3D(volume, vec3(texPosPvec[1]))[c];
+277:   g1.z = texture3D(volume, vec3(texPosPvec[2]))[c];
+278:   g2.x = texture3D(volume, vec3(texPosNvec[0]))[c];
+279:   g2.y = texture3D(volume, vec3(texPosNvec[1]))[c];
+280:   g2.z = texture3D(volume, vec3(texPosNvec[2]))[c];
+281: 
+282:   // Apply scale and bias to the fetched values.
+283:   g1 = g1 * in_volume_scale[index][c] + in_volume_bias[index][c];
+284:   g2 = g2 * in_volume_scale[index][c] + in_volume_bias[index][c];
+285: 
+286:   // Scale values the actual scalar range.
+287:   float range = in_scalarsRange[4*index+c][1] - in_scalarsRange[4*index+c][0];
+288:   g1 = in_scalarsRange[4*index+c][0] + range * g1;
+289:   g2 = in_scalarsRange[4*index+c][0] + range * g2;
+290: 
+291:   // Central differences: (F_front - F_back) / 2h
+292:   g2 = g1 - g2;
+293: 
+294:   float avgSpacing = (in_cellSpacing[index].x +
+295:    in_cellSpacing[index].y + in_cellSpacing[index].z) / 3.0;
+296:   vec3 aspect = in_cellSpacing[index] * 2.0 / avgSpacing;
+297:   g2 /= aspect;
+298:   float grad_mag = length(g2);
+299: 
+300:   // Handle normalizing with grad_mag == 0.0
+301:   g2 = grad_mag > 0.0 ? normalize(g2) : vec3(0.0);
+302: 
+303:   // Since the actual range of the gradient magnitude is unknown,
+304:   // assume it is in the range [0, 0.25 * dataRange].
+305:   range = range != 0 ? range : 1.0;
+306:   grad_mag = grad_mag / (0.25 * range);
+307:   grad_mag = clamp(grad_mag, 0.0, 1.0);
+308: 
+309:   return vec4(g2.xyz, grad_mag);
+310: }
+311: 
+312: 
+313: //VTK::ComputeDensityGradient::Dec
+314: 
+315: //VTK::ComputeVolumetricShadow::Dec
+316: 
+317:       
+318: vec4 computeLighting(vec4 color, int component, float label)      
+319: {      
+320:   vec4 finalColor = vec4(0.0);
+321: 
+322:   int lightingComponent=component;
+323:   vec4 gradient = computeGradient(g_dataPos, component, in_volume[0], 0);
+324: 
+325:   finalColor = vec4(color.rgb, 0.0);            
+326:   if (gradient.w >= 0.0 && label == 0.0)            
+327:     {            
+328:     color.a *= computeGradientOpacity(gradient);            
+329:     }      
+330:   finalColor.a = color.a;      
+331:   return finalColor;      
+332:   }
+333: 
+334:           
+335: vec4 computeColor(vec4 scalar, float opacity)          
+336:   {          
+337:   return clamp(computeLighting(vec4(texture2D(in_colorTransferFunc_0[0],          
+338:                          vec2(scalar.w, 0.0)).xyz, opacity), 0, 0.0), 0.0, 1.0);          
+339:   }
+340: 
+341:         
+342: vec3 computeRayDirection()        
+343:   {        
+344:   return normalize(ip_vertexPos.xyz - g_eyePosObj.xyz);        
+345:   }
+346: 
+347: //VTK::Picking::Dec
+348: 
+349: //VTK::RenderToImage::Dec
+350: 
+351: //VTK::DepthPeeling::Dec
+352: 
+353: uniform float in_scale;
+354: uniform float in_bias;
+355: 
+356: //////////////////////////////////////////////////////////////////////////////
+357: ///
+358: /// Helper functions
+359: ///
+360: //////////////////////////////////////////////////////////////////////////////
+361: 
+362: /**
+363:  * Transform window coordinate to NDC.
+364:  */
+365: vec4 WindowToNDC(const float xCoord, const float yCoord, const float zCoord)
+366: {
+367:   vec4 NDCCoord = vec4(0.0, 0.0, 0.0, 1.0);
+368: 
+369:   NDCCoord.x = (xCoord - in_windowLowerLeftCorner.x) * 2.0 *
+370:     in_inverseWindowSize.x - 1.0;
+371:   NDCCoord.y = (yCoord - in_windowLowerLeftCorner.y) * 2.0 *
+372:     in_inverseWindowSize.y - 1.0;
+373:   NDCCoord.z = (2.0 * zCoord - (gl_DepthRange.near + gl_DepthRange.far)) /
+374:     gl_DepthRange.diff;
+375: 
+376:   return NDCCoord;
+377: }
+378: 
+379: /**
+380:  * Transform NDC coordinate to window coordinates.
+381:  */
+382: vec4 NDCToWindow(const float xNDC, const float yNDC, const float zNDC)
+383: {
+384:   vec4 WinCoord = vec4(0.0, 0.0, 0.0, 1.0);
+385: 
+386:   WinCoord.x = (xNDC + 1.f) / (2.f * in_inverseWindowSize.x) +
+387:     in_windowLowerLeftCorner.x;
+388:   WinCoord.y = (yNDC + 1.f) / (2.f * in_inverseWindowSize.y) +
+389:     in_windowLowerLeftCorner.y;
+390:   WinCoord.z = (zNDC * gl_DepthRange.diff +
+391:     (gl_DepthRange.near + gl_DepthRange.far)) / 2.f;
+392: 
+393:   return WinCoord;
+394: }
+395: 
+396: /**
+397:  * Clamps the texture coordinate vector @a pos to a new position in the set
+398:  * { start + i * step }, where i is an integer. If @a ceiling
+399:  * is true, the sample located further in the direction of @a step is used,
+400:  * otherwise the sample location closer to the eye is used.
+401:  * This function assumes both start and pos already have jittering applied.
+402:  */
+403: vec3 ClampToSampleLocation(vec3 start, vec3 step, vec3 pos, bool ceiling)
+404: {
+405:   vec3 offset = pos - start;
+406:   float stepLength = length(step);
+407: 
+408:   // Scalar projection of offset on step:
+409:   float dist = dot(offset, step / stepLength);
+410:   if (dist < 0.) // Don't move before the start position:
+411:   {
+412:     return start;
+413:   }
+414: 
+415:   // Number of steps
+416:   float steps = dist / stepLength;
+417: 
+418:   // If we're reeaaaaallly close, just round -- it's likely just numerical noise
+419:   // and the value should be considered exact.
+420:   if (abs(mod(steps, 1.)) > 1e-5)
+421:   {
+422:     if (ceiling)
+423:     {
+424:       steps = ceil(steps);
+425:     }
+426:     else
+427:     {
+428:       steps = floor(steps);
+429:     }
+430:   }
+431:   else
+432:   {
+433:     steps = floor(steps + 0.5);
+434:   }
+435: 
+436:   return start + steps * step;
+437: }
+438: 
+439: //////////////////////////////////////////////////////////////////////////////
+440: ///
+441: /// Ray-casting
+442: ///
+443: //////////////////////////////////////////////////////////////////////////////
+444: 
+445: /**
+446:  * Global initialization. This method should only be called once per shader
+447:  * invocation regardless of whether castRay() is called several times (e.g.
+448:  * vtkDualDepthPeelingPass). Any castRay() specific initialization should be
+449:  * placed within that function.
+450:  */
+451: void initializeRayCast()
+452: {
+453:   /// Initialize g_fragColor (output) to 0
+454:   g_fragColor = vec4(0.0);
+455:   g_dirStep = vec3(0.0);
+456:   g_srcColor = vec4(0.0);
+457:   g_exit = false;
+458: 
+459:           
+460:   // Get the 3D texture coordinates for lookup into the in_volume dataset        
+461:   g_rayOrigin = ip_textureCoords.xyz;      
+462:       
+463:   // Eye position in dataset space      
+464:   g_eyePosObj = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);      
+465:   g_eyePosObjs[0] = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);
+466:       
+467:   // Getting the ray marching direction (in dataset space)      
+468:   vec3 rayDir = computeRayDirection();      
+469:       
+470:   // 2D Texture fragment coordinates [0,1] from fragment coordinates.      
+471:   // The frame buffer texture has the size of the plain buffer but       
+472:   // we use a fraction of it. The texture coordinate is less than 1 if      
+473:   // the reduction factor is less than 1.      
+474:   // Device coordinates are between -1 and 1. We need texture      
+475:   // coordinates between 0 and 1. The in_depthSampler      
+476:   // buffer has the original size buffer.      
+477:   vec2 fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+478:                       in_inverseWindowSize;      
+479:       
+480:   // Multiply the raymarching direction with the step size to get the      
+481:   // sub-step size we need to take at each raymarching step      
+482:   g_dirStep = (ip_inverseTextureDataAdjusted *      
+483:               vec4(rayDir, 0.0)).xyz * in_sampleDistance;      
+484:   g_lengthStep = length(g_dirStep);      
+485:           
+486:  float jitterValue = 0.0;          
+487:         
+488:     g_rayJitter = g_dirStep;        
+489:         
+490:   g_rayOrigin += g_rayJitter;        
+491:       
+492:   // Flag to determine if voxel should be considered for the rendering      
+493:   g_skip = false;
+494: 
+495:   
+496: 
+497:         
+498:   // Flag to indicate if the raymarch loop should terminate       
+499:   bool stop = false;      
+500:       
+501:   g_terminatePointMax = 0.0;      
+502:       
+503:   vec4 l_depthValue = texture2D(in_depthSampler, fragTexCoord);      
+504:   // Depth test      
+505:   if(gl_FragCoord.z >= l_depthValue.x)      
+506:     {      
+507:     discard;      
+508:     }      
+509:       
+510:   // color buffer or max scalar buffer have a reduced size.      
+511:   fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+512:                  in_inverseOriginalWindowSize;      
+513:       
+514:   // Compute max number of iterations it will take before we hit      
+515:   // the termination point      
+516:       
+517:   // Abscissa of the point on the depth buffer along the ray.      
+518:   // point in texture coordinates      
+519:   vec4 rayTermination = WindowToNDC(gl_FragCoord.x, gl_FragCoord.y, l_depthValue.x);      
+520:       
+521:   // From normalized device coordinates to eye coordinates.      
+522:   // in_projectionMatrix is inversed because of way VT      
+523:   // From eye coordinates to texture coordinates      
+524:   rayTermination = ip_inverseTextureDataAdjusted *      
+525:                     in_inverseVolumeMatrix[0] *      
+526:                     in_inverseModelViewMatrix *      
+527:                     in_inverseProjectionMatrix *      
+528:                     rayTermination;      
+529:   g_rayTermination = rayTermination.xyz / rayTermination.w;      
+530:       
+531:   // Setup the current segment:      
+532:   g_dataPos = g_rayOrigin;      
+533:   g_terminatePos = g_rayTermination;      
+534:       
+535:   g_terminatePointMax = length(g_terminatePos.xyz - g_dataPos.xyz) /      
+536:                         length(g_dirStep);      
+537:   g_currentT = 0.0;
+538: 
+539:   
+540: 
+541:   //VTK::RenderToImage::Init
+542: 
+543:   //VTK::DepthPass::Init
+544: 
+545:   //VTK::Matrices::Init
+546: 
+547:   g_jitterValue = jitterValue;
+548: }
+549: 
+550: /**
+551:  * March along the ray direction sampling the volume texture.  This function
+552:  * takes a start and end point as arguments but it is up to the specific render
+553:  * pass implementation to use these values (e.g. vtkDualDepthPeelingPass). The
+554:  * mapper does not use these values by default, instead it uses the number of
+555:  * steps defined by g_terminatePointMax.
+556:  */
+557: vec4 castRay(const float zStart, const float zEnd)
+558: {
+559:   //VTK::DepthPeeling::Ray::Init
+560: 
+561:   
+562: 
+563:   //VTK::DepthPeeling::Ray::PathCheck
+564: 
+565:   
+566: 
+567:   /// For all samples along the ray
+568:   while (!g_exit)
+569:   {
+570:           
+571:     g_skip = false;
+572: 
+573:     
+574: 
+575:     
+576: 
+577:     
+578: 
+579:     //VTK::PreComputeGradients::Impl
+580: 
+581:     
+582:     if (!g_skip)
+583:     {
+584:       vec4 scalar = texture3D(in_volume[0], g_dataPos);
+585:       scalar.r = scalar.r * in_volume_scale[0].r + in_volume_bias[0].r;
+586:       scalar = vec4(scalar.r);
+587:       g_srcColor = vec4(0.0);
+588:       float inAlpha = computeOpacity(scalar);
+589:       if(inAlpha > sampleThreshold && virtualAlpha < VAT)
+590:       {
+591:       vec4 n = ComputeGradient(in_volume[0], g_dataPos, gradStep);
+592:       if(n.a > 0.0)
+593:       {
+594:         // Phong shading parameters
+595:         vec3 lightPos = g_eyePosObj.xyz;//(ip_inverseTextureDataAdjusted * vec4(g_eyePosObj.xyz,1.0) ).xyz;
+596:         vec3 viewPos = -g_eyePosObj.xyz - vec3(0.1, 0.0, 0.0);// vec3(1.0, 1.0, 1.0); // Camera position - you can make it dynamic
+597:         vec3 lightColor = vec3(1.0, 1.0, 1.0); // White light
+598:         vec3 objectColor = vec3(1.0, 1.0, 1.0); // Object color, white for "glass-like" effect
+599: 
+600:         vec3 norm = n.rgb;
+601:         vec3 lightDir = normalize(lightPos - g_dataPos);
+602:         //float diff = max(dot(norm, lightDir), 0.0);
+603:         vec3 diffuse = vec3(1.0, 1.0, 1.0)*lightIntensity; // Increase light intensity for a brighter effect
+604: 
+605:         vec3 viewDir = normalize(viewPos - g_dataPos);
+606:         vec3 reflectDir = reflect(-lightDir, norm);
+607:         float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64.0); // Increase exponent for a brighter effect
+608:         vec3 specular = 10.0 * spec * lightColor ; // Increase specular contribution
+609:           
+610:         vec3 result = (diffuse + specular) * objectColor;
+611:           
+612:         float factor = computeOpacity(n) * (1.0 - abs(dot(normalize(g_dirStep), n.rgb)));
+613:         float alpha = smoothstep(step.x, step.y, factor) * 0.3; // Adjust transparency for "glass-like" effect
+614:         g_srcColor = vec4(result, alpha);
+615:       }
+616:       }
+617:       virtualAlpha += (1-virtualAlpha) * inAlpha;
+618:       g_srcColor.rgb *= g_srcColor.a;
+619:       g_fragColor = (1.0f - g_fragColor.a) * g_srcColor + g_fragColor;
+620:     }
+621: 
+622:     //VTK::RenderToImage::Impl
+623: 
+624:     //VTK::DepthPass::Impl
+625: 
+626:     /// Advance ray
+627:     g_dataPos += g_dirStep;
+628: 
+629:           
+630:     if(any(greaterThan(max(g_dirStep, vec3(0.0))*(g_dataPos - in_texMax[0]),vec3(0.0))) ||      
+631:       any(greaterThan(min(g_dirStep, vec3(0.0))*(g_dataPos - in_texMin[0]),vec3(0.0))))      
+632:       {      
+633:       break;      
+634:       }      
+635:       
+636:     // Early ray termination      
+637:     // if the currently composited colour alpha is already fully saturated      
+638:     // we terminated the loop or if we have hit an obstacle in the      
+639:     // direction of they ray (using depth buffer) we terminate as well.      
+640:     if((g_fragColor.a > g_opacityThreshold) ||       
+641:        g_currentT >= g_terminatePointMax)      
+642:       {      
+643:       break;      
+644:       }      
+645:     ++g_currentT;
+646:   }
+647: 
+648:   
+649: 
+650:   return g_fragColor;
+651: }
+652: 
+653: /**
+654:  * Finalize specific modes and set output data.
+655:  */
+656: void finalizeRayCast()
+657: {
+658:   
+659: 
+660:   
+661: 
+662:   
+663: 
+664:   
+665: 
+666:   //VTK::Picking::Exit
+667: 
+668:   g_fragColor.r = g_fragColor.r * in_scale + in_bias * g_fragColor.a;
+669:   g_fragColor.g = g_fragColor.g * in_scale + in_bias * g_fragColor.a;
+670:   g_fragColor.b = g_fragColor.b * in_scale + in_bias * g_fragColor.a;
+671:   fragOutput0 = g_fragColor;
+672: 
+673:   //VTK::RenderToImage::Exit
+674: 
+675:   //VTK::DepthPass::Exit
+676: }
+677: 
+678: //////////////////////////////////////////////////////////////////////////////
+679: ///
+680: /// Main
+681: ///
+682: //////////////////////////////////////////////////////////////////////////////
+683: void main()
+684: {
+685:       
+686:   initializeRayCast();    
+687:   castRay(-1.0, -1.0);    
+688:   finalizeRayCast();
+689: }
+[ERROR][VTK] 17.07.2024 15:48:04 [vtkShaderProgram (00000283254A4C80)] (vtkShaderProgram.cxx:454) - ERROR: 0:603: 'lightIntensity' : undeclared identifier
+[ERROR][VTK] 17.07.2024 15:48:04 [vtkOpenGLGPUVolumeRayCastMapper (000002831AAACFF0)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:48:55 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:20 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:21 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:30 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:42 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:43 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:53:44 [] (unknown:0) -
+[DEBUG][Qt] 17.07.2024 15:53:55 [] (unknown:0) - Switch to module:  ""

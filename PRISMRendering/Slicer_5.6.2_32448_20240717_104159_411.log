@@ -1,0 +1,58 @@
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Session start time .......: 20240717_104159
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Slicer version ...........: 5.6.2 (revision 32448 / f10cd8c) win-amd64 - installed release
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19045, Code Page 65001) - 64-bit
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Memory ...................: 16275 MB physical, 18707 MB virtual
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Application path .........: C:/Users/Aurelie/AppData/Local/slicer.org/Slicer 5.6.2/bin
+[DEBUG][Qt] 17.07.2024 10:41:59 [] (unknown:0) - Additional module paths ..: slicer.org/Extensions-32448/ExtraMarkups/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-scripted-modules, slicer.org/Extensions-32448/MarkupsToModel/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SlicerVirtualReality/lib/Slicer-5.6/qt-loadable-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\Sphere2MarkupPoint, slicer.org/Extensions-32448/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt/firstModule, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\test, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering/PRISMRendering
+[DEBUG][Python] 17.07.2024 10:42:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 17.07.2024 10:42:02 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 17.07.2024 10:42:02 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - Loading Slicer RC file [C:/Users/Aurelie/.slicerrc.py]
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - --------------------------------------------------------------------------------
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - To load a python script load_exec(script_name) in path: C:/Users/Aurelie/Documents/Github/3DSlicer/script
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - List of files in C:/Users/Aurelie/Documents/Github/3DSlicer/script:
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - test.py
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 10:42:03 [] (unknown:0) - --------------------------------------------------------------------------------
+[DEBUG][Qt] 17.07.2024 10:42:09 [] (unknown:0) - Switch to module:  "PRISMRendering"
+[DEBUG][Python] 17.07.2024 10:42:12 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - Verifying checksum
+[DEBUG][Python] 17.07.2024 10:42:12 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - File already exists and checksum is OK - reusing it.
+[DEBUG][Python] 17.07.2024 10:42:12 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Requesting load OutlineSampleData from C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc ...</b>
+[DEBUG][Qt] 17.07.2024 10:42:12 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc" "[0.22s]"
+[DEBUG][Python] 17.07.2024 10:42:12 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Load finished</b><p></p>
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:44:51 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:08 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:45:18 [] (unknown:0) -
+[DEBUG][Qt] 17.07.2024 15:47:51 [] (unknown:0) - Switch to module:  ""

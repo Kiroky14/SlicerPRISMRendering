@@ -13,9 +13,10 @@ class OutlineShader(CustomShader):
   VATParam = FloatParam("VAT", "Virtual Alpha Lower Than", 0.85, 0.0, 1.0)
   thresholdParam = FloatParam("threshold","Threshold", 0.05, 0.0, 0.5)
   stepParam = RangeParam("step", "Step", [0.0, 1])
+  lightIntensityParam = FloatParam("lightIntensity", "Light Intensity", 1.0, 0.0, 10.0)
 
-  param_list = [gradStepParam, VATParam, thresholdParam, stepParam]
-  sampleValues = {"gradStep" : 0.001, "VAT" : 0.6, "threshold" : 0.11, "step" : [0.0, 0.46]}
+  param_list = [gradStepParam, VATParam, thresholdParam, stepParam, lightIntensityParam]
+  sampleValues = {"gradStep" : 0.001, "VAT" : 0.6, "threshold" : 0.11, "step" : [0.0, 0.46], "lightIntensity" : 2.0}
   
   def __init__(self, shaderPropertyNode, volumeNode = None, logic = None, paramlist = param_list):
     CustomShader.__init__(self,shaderPropertyNode, volumeNode)
@@ -79,31 +80,38 @@ class OutlineShader(CustomShader):
       float inAlpha = computeOpacity(scalar);
       if(inAlpha > sampleThreshold && virtualAlpha < VAT)
       {
-        vec4 n = ComputeGradient(in_volume[0], g_dataPos, gradStep);
-        if(n.a > 0.0)
-        {
-          // Phong shading parameters
-          vec3 lightPos = g_eyePosObj.xyz;//(ip_inverseTextureDataAdjusted * vec4(g_eyePosObj.xyz,1.0) ).xyz;
-          vec3 viewPos = -g_eyePosObj.xyz - vec3(0.1, 0.0, 0.0);// vec3(1.0, 1.0, 1.0); // Position de la caméra - vous pouvez la rendre dynamique
-          vec3 lightColor = vec3(1.0, 1.0, 1.0); // Lumière blanche
-          vec3 objectColor = vec3(1.0, 1.0, 1.0); // Couleur de l'objet, blanc pour l'effet "glass-like"
+      vec4 n = ComputeGradient(in_volume[0], g_dataPos, gradStep);
+      if(n.a > 0.0)
+      {
+        // Phong shading parameters
+        vec3 lightPos = g_eyePosObj.xyz;//(ip_inverseTextureDataAdjusted * vec4(g_eyePosObj.xyz,1.0) ).xyz;
+        vec3 viewPos = -g_eyePosObj.xyz - vec3(0.1, 0.0, 0.0);// vec3(1.0, 1.0, 1.0); // Camera position - you can make it dynamic
+        vec3 lightColor = vec3(1.0, 1.0, 1.0); // White light
+        vec3 objectColor = vec3(1.0, 1.0, 1.0); // Object color, white for "glass-like" effect
 
+<<<<<<< Updated upstream
           vec3 norm = n.rgb;
           vec3 lightDir = normalize(lightPos - g_dataPos);
           //float diff = max(dot(norm, lightDir), 0.0);
           vec3 diffuse = vec3(1.0, 1.0, 1.0)*lightIntensity; // Augmenter l'intensité de la lumière pour un effet plus brillant
+=======
+        vec3 norm = n.rgb;
+        vec3 lightDir = normalize(lightPos - g_dataPos);
+        //float diff = max(dot(norm, lightDir), 0.0);
+        vec3 diffuse = vec3(1.0, 1.0, 1.0)*lightIntensity; // Increase light intensity for a brighter effect
+>>>>>>> Stashed changes
 
-          vec3 viewDir = normalize(viewPos - g_dataPos);
-          vec3 reflectDir = reflect(-lightDir, norm);
-          float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64.0); // Augmentation de l'exposant pour un effet plus brillant
-          vec3 specular = 10.0 * spec * lightColor ; // Augmenter la contribution spéculaire
-              
-          vec3 result = (diffuse + specular) * objectColor;
-                
-          float factor = computeOpacity(n) * (1.0 - abs(dot(normalize(g_dirStep), n.rgb)));
-          float alpha = smoothstep(step.x, step.y, factor) * 0.3; // Ajuster la transparence pour l'effet "glass-like"
-          g_srcColor = vec4(result, alpha);
-        }
+        vec3 viewDir = normalize(viewPos - g_dataPos);
+        vec3 reflectDir = reflect(-lightDir, norm);
+        float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64.0); // Increase exponent for a brighter effect
+        vec3 specular = 10.0 * spec * lightColor ; // Increase specular contribution
+          
+        vec3 result = (diffuse + specular) * objectColor;
+          
+        float factor = computeOpacity(n) * (1.0 - abs(dot(normalize(g_dirStep), n.rgb)));
+        float alpha = smoothstep(step.x, step.y, factor) * 0.3; // Adjust transparency for "glass-like" effect
+        g_srcColor = vec4(result, alpha);
+      }
       }
       virtualAlpha += (1-virtualAlpha) * inAlpha;
       g_srcColor.rgb *= g_srcColor.a;
