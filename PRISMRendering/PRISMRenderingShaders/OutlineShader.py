@@ -41,7 +41,6 @@ class OutlineShader(CustomShader):
     self.shaderProperty.ClearAllFragmentShaderReplacements()
 
     croppingDecCode = """
-
     vec4 ComputeGradient(in sampler3D volume, vec3 pos, float gradStep)
     {
       vec3 g1;
@@ -92,7 +91,7 @@ class OutlineShader(CustomShader):
           vec3 norm = n.rgb;
           vec3 lightDir = normalize(lightPos - g_dataPos);
           //float diff = max(dot(norm, lightDir), 0.0);
-          vec3 diffuse = vec3(1.0, 1.0, 1.0)*1.2;
+          vec3 diffuse = vec3(1.0, 1.0, 1.0)*lightIntensity; // Augmenter l'intensité de la lumière pour un effet plus brillant
 
           vec3 viewDir = normalize(viewPos - g_dataPos);
           vec3 reflectDir = reflect(-lightDir, norm);

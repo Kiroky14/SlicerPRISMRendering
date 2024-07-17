@@ -1,0 +1,2121 @@
+[DEBUG][Qt] 17.07.2024 15:58:54 [] (unknown:0) - Session start time .......: 20240717_155854
+[DEBUG][Qt] 17.07.2024 15:58:54 [] (unknown:0) - Slicer version ...........: 5.6.2 (revision 32448 / f10cd8c) win-amd64 - installed release
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Operating system .........: Windows /  Professional / (Build 19045, Code Page 65001) - 64-bit
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Memory ...................: 16275 MB physical, 18707 MB virtual
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Application path .........: C:/Users/Aurelie/AppData/Local/slicer.org/Slicer 5.6.2/bin
+[DEBUG][Qt] 17.07.2024 15:58:55 [] (unknown:0) - Additional module paths ..: slicer.org/Extensions-32448/ExtraMarkups/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SegmentEditorExtraEffects/lib/Slicer-5.6/qt-scripted-modules, slicer.org/Extensions-32448/MarkupsToModel/lib/Slicer-5.6/qt-loadable-modules, slicer.org/Extensions-32448/SlicerVirtualReality/lib/Slicer-5.6/qt-loadable-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\Sphere2MarkupPoint, slicer.org/Extensions-32448/DebuggingTools/lib/Slicer-5.6/qt-scripted-modules, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt/firstModule, C:/Users/Aurelie/Documents/GitHub/3DSlicer/Extensions/firstExt\test, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering, C:/Users/Aurelie/Documents/GitHub/SlicerPRISMRendering/PRISMRendering
+[DEBUG][Python] 17.07.2024 15:58:58 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 17.07.2024 15:58:58 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 17.07.2024 15:58:58 [] (unknown:0) - Switch to module:  "Welcome"
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - Loading Slicer RC file [C:/Users/Aurelie/.slicerrc.py]
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - --------------------------------------------------------------------------------
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - To load a python script load_exec(script_name) in path: C:/Users/Aurelie/Documents/Github/3DSlicer/script
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - List of files in C:/Users/Aurelie/Documents/Github/3DSlicer/script:
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - test.py
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 15:58:58 [] (unknown:0) - --------------------------------------------------------------------------------
+[DEBUG][Qt] 17.07.2024 15:59:07 [] (unknown:0) - Switch to module:  "PRISMRendering"
+[DEBUG][Python] 17.07.2024 15:59:10 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - Verifying checksum
+[DEBUG][Python] 17.07.2024 15:59:10 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - File already exists and checksum is OK - reusing it.
+[DEBUG][Python] 17.07.2024 15:59:10 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Requesting load OutlineSampleData from C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc ...</b>
+[DEBUG][Qt] 17.07.2024 15:59:10 [] (unknown:0) - "Volume" Reader has successfully read the file "C:/Users/Aurelie/AppData/Local/slicer.org/Slicer/cache/SlicerIO/OutlineSampleData.mnc" "[0.12s]"
+[DEBUG][Python] 17.07.2024 15:59:10 [Python] (C:\Users\Aurelie\AppData\Local\slicer.org\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SampleData.py:799) - <b>Load finished</b><p></p>
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 16:00:03 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:00:11 [] (unknown:0) -
+[WARNING][Qt] 17.07.2024 17:00:11 [] (unknown:0) - ctkRangeWidget::setSingleStep( 0.01 ) is outside valid bounds
+[ERROR][VTK] 17.07.2024 17:00:11 [vtkShaderProgram (00000156EEA5E6F0)] (vtkShaderProgram.cxx:453) - 1: #version 150
+2: #ifdef GL_ES
+3: #ifdef GL_FRAGMENT_PRECISION_HIGH
+4: precision highp float;
+5: precision highp sampler2D;
+6: precision highp sampler3D;
+7: #else
+8: precision mediump float;
+9: precision mediump sampler2D;
+10: precision mediump sampler3D;
+11: #endif
+12: #define texelFetchBuffer texelFetch
+13: #define texture1D texture
+14: #define texture2D texture
+15: #define texture3D texture
+16: #else // GL_ES
+17: #define highp
+18: #define mediump
+19: #define lowp
+20: #if __VERSION__ == 150
+21: #define texelFetchBuffer texelFetch
+22: #define texture1D texture
+23: #define texture2D texture
+24: #define texture3D texture
+25: #endif
+26: #endif // GL_ES
+27: #define varying in
+28: 
+29: 
+30: /*=========================================================================
+31: 
+32:   Program:   Visualization Toolkit
+33:   Module:    raycasterfs.glsl
+34: 
+35:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+36:   All rights reserved.
+37:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+38: 
+39:      This software is distributed WITHOUT ANY WARRANTY; without even
+40:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+41:      PURPOSE.  See the above copyright notice for more information.
+42: 
+43: =========================================================================*/
+44: 
+45: //////////////////////////////////////////////////////////////////////////////
+46: ///
+47: /// Inputs
+48: ///
+49: //////////////////////////////////////////////////////////////////////////////
+50: 
+51: /// 3D texture coordinates form vertex shader
+52: in vec3 ip_textureCoords;
+53: in vec3 ip_vertexPos;
+54: 
+55: //////////////////////////////////////////////////////////////////////////////
+56: ///
+57: /// Outputs
+58: ///
+59: //////////////////////////////////////////////////////////////////////////////
+60: 
+61: vec4 g_fragColor = vec4(0.0);
+62: 
+63: //////////////////////////////////////////////////////////////////////////////
+64: ///
+65: /// Uniforms, attributes, and globals
+66: ///
+67: //////////////////////////////////////////////////////////////////////////////
+68: vec3 g_dirStep;
+69: float g_lengthStep = 0.0;
+70: vec4 g_srcColor;
+71: vec4 g_eyePosObj;
+72: bool g_exit;
+73: bool g_skip;
+74: float g_currentT;
+75: float g_terminatePointMax;
+76: 
+77: // These describe the entire ray for this scene, not just the current depth
+78: // peeling segment. These are texture coordinates.
+79: vec3 g_rayOrigin; // Entry point of volume or clip point
+80: vec3 g_rayTermination; // Termination point (depth, clip, etc)
+81: 
+82: // These describe the current segment. If not peeling, they are initialized to
+83: // the ray endpoints.
+84: vec3 g_dataPos;
+85: vec3 g_terminatePos;
+86: 
+87: float g_jitterValue = 0.0;
+88: 
+89: uniform float VAT;
+90: uniform float dirMax;
+91: uniform float dirMin;
+92: uniform float gradStep;
+93: uniform float lightIntensity;
+94: uniform float radius;
+95: uniform float resolution;
+96: uniform float stepMax;
+97: uniform float stepMin;
+98: uniform float threshold;
+99: 
+100: 
+101: out vec4 fragOutput0;
+102: 
+103: 
+104: uniform sampler3D in_volume[1];
+105: uniform vec4 in_volume_scale[1];
+106: uniform vec4 in_volume_bias[1];
+107: uniform int in_noOfComponents;
+108: 
+109: uniform sampler2D in_depthSampler;
+110: 
+111: // Camera position
+112: uniform vec3 in_cameraPos;
+113: uniform mat4 in_volumeMatrix[1];
+114: uniform mat4 in_inverseVolumeMatrix[1];
+115: uniform mat4 in_textureDatasetMatrix[1];
+116: uniform mat4 in_inverseTextureDatasetMatrix[1];
+117: uniform mat4 in_textureToEye[1];
+118: uniform vec3 in_texMin[1];
+119: uniform vec3 in_texMax[1];
+120: uniform mat4 in_cellToPoint[1];
+121: // view and model matrices
+122: uniform mat4 in_projectionMatrix;
+123: uniform mat4 in_inverseProjectionMatrix;
+124: uniform mat4 in_modelViewMatrix;
+125: uniform mat4 in_inverseModelViewMatrix;
+126: in mat4 ip_inverseTextureDataAdjusted;
+127: 
+128: // Ray step size
+129: uniform vec3 in_cellStep[1];
+130: uniform vec2 in_scalarsRange[4];
+131: uniform vec3 in_cellSpacing[1];
+132: 
+133: // Sample distance
+134: uniform float in_sampleDistance;
+135: 
+136: // Scales
+137: uniform vec2 in_windowLowerLeftCorner;
+138: uniform vec2 in_inverseOriginalWindowSize;
+139: uniform vec2 in_inverseWindowSize;
+140: uniform vec3 in_textureExtentsMax;
+141: uniform vec3 in_textureExtentsMin;
+142: 
+143: // Material and lighting
+144: uniform vec3 in_diffuse[4];
+145: uniform vec3 in_ambient[4];
+146: uniform vec3 in_specular[4];
+147: uniform float in_shininess[4];
+148: 
+149: // Others
+150: vec3 g_rayJitter = vec3(0.0);
+151: 
+152: uniform vec2 in_averageIPRange;
+153: vec4 g_eyePosObjs[1];
+154: uniform bool in_twoSidedLighting;
+155: 
+156: 
+157:       
+158:  const float g_opacityThreshold = 1.0 - 1.0 / 255.0;
+159: 
+160: 
+161: 
+162:     vec4 ComputeGradient(in sampler3D volume, vec3 pos, float gradStep)
+163:     {
+164:       vec3 g1;
+165:       g1.x = texture3D(volume, pos + vec3(gradStep,0.0,0.0) ).x;
+166:       g1.y = texture3D(volume, pos +  vec3(0.0, gradStep, 0.0)).x;
+167:       g1.z = texture3D(volume, pos +  vec3(0.0,0.0, gradStep)).x;
+168:       vec3 g2;
+169:       g2.x = texture3D(volume, pos -  vec3(gradStep,0.0,0.0)).x;
+170:       g2.y = texture3D(volume, pos -  vec3(0.0, gradStep, 0.0)).x;
+171:       g2.z = texture3D(volume, pos -  vec3(0.0,0.0, gradStep)).x;
+172:       vec3 n = (g2 - g1) / (2.0 * gradStep);
+173:       float nLength = length(n);
+174:       if(nLength > 0.0)
+175:           n = normalize(n);
+176:       else
+177:           n = vec3(0.0, 0.0, 0.0);
+178:       vec4 ret;
+179:       ret.rgb = n;
+180:       ret.a = nLength;
+181:       return ret;
+182:     }
+183: 
+184:     float sampleThreshold = threshold;
+185:     vec2 step = vec2(stepMin, stepMax);
+186:     float virtualAlpha = 0.0;
+187:     
+188: 
+189: 
+190: 
+191: #define EPSILON 0.001
+192: 
+193: // Computes the intersection between a ray and a box
+194: // The box should be axis aligned so we only give two arguments
+195: struct Hit
+196: {
+197:   float tmin;
+198:   float tmax;
+199: };
+200: 
+201: struct Ray
+202: {
+203:   vec3 origin;
+204:   vec3 dir;
+205:   vec3 invDir;
+206: };
+207: 
+208: bool BBoxIntersect(const vec3 boxMin, const vec3 boxMax, const Ray r, out Hit hit)
+209: {
+210:   vec3 tbot = r.invDir * (boxMin - r.origin);
+211:   vec3 ttop = r.invDir * (boxMax - r.origin);
+212:   vec3 tmin = min(ttop, tbot);
+213:   vec3 tmax = max(ttop, tbot);
+214:   vec2 t = max(tmin.xx, tmin.yz);
+215:   float t0 = max(t.x, t.y);
+216:   t = min(tmax.xx, tmax.yz);
+217:   float t1 = min(t.x, t.y);
+218:   hit.tmin = t0;
+219:   hit.tmax = t1;
+220:   return t1 > max(t0, 0.0);
+221: }
+222: 
+223: // As BBoxIntersect requires the inverse of the ray coords,
+224: // this function is used to avoid numerical issues
+225: void safe_0_vector(inout Ray ray)
+226: {
+227:   if(abs(ray.dir.x) < EPSILON) ray.dir.x = sign(ray.dir.x) * EPSILON;
+228:   if(abs(ray.dir.y) < EPSILON) ray.dir.y = sign(ray.dir.y) * EPSILON;
+229:   if(abs(ray.dir.z) < EPSILON) ray.dir.z = sign(ray.dir.z) * EPSILON;
+230: }
+231: 
+232: // the phase function should be normalized to 4pi for compatibility with surface rendering
+233: //VTK::PhaseFunction::Dec
+234: 
+235: uniform sampler2D in_colorTransferFunc_0[1];
+236: 
+237: 
+238: 
+239: 
+240: 
+241: 
+242: 
+243: 
+244: //VTK::GradientCache::Dec
+245: 
+246: //VTK::Transfer2D::Dec
+247: 
+248: uniform sampler2D in_gradientTransferFunc_0[1];
+249:           
+250: float computeGradientOpacity(vec4 grad)          
+251:   {          
+252:   return texture2D(in_gradientTransferFunc_0[0], vec2(grad.w, 0.0)).r;          
+253:   }
+254: 
+255: uniform sampler2D in_opacityTransferFunc_0[1];
+256:         
+257: float computeOpacity(vec4 scalar)        
+258: {        
+259:   return texture2D(in_opacityTransferFunc_0[0], vec2(scalar.w, 0)).r;        
+260: }
+261: 
+262: //VTK::ComputeRGBA2DWithGradient::Dec
+263: 
+264: // c is short for component
+265: vec4 computeGradient(in vec3 texPos, in int c, in sampler3D volume,in int index)
+266: {
+267:   // Approximate Nabla(F) derivatives with central differences.
+268:   vec3 g1; // F_front
+269:   vec3 g2; // F_back
+270:   vec3 xvec = vec3(in_cellStep[index].x, 0.0, 0.0);
+271:   vec3 yvec = vec3(0.0, in_cellStep[index].y, 0.0);
+272:   vec3 zvec = vec3(0.0, 0.0, in_cellStep[index].z);
+273:   vec3 texPosPvec[3];
+274:   texPosPvec[0] = texPos + xvec;
+275:   texPosPvec[1] = texPos + yvec;
+276:   texPosPvec[2] = texPos + zvec;
+277:   vec3 texPosNvec[3];
+278:   texPosNvec[0] = texPos - xvec;
+279:   texPosNvec[1] = texPos - yvec;
+280:   texPosNvec[2] = texPos - zvec;
+281:   g1.x = texture3D(volume, vec3(texPosPvec[0]))[c];
+282:   g1.y = texture3D(volume, vec3(texPosPvec[1]))[c];
+283:   g1.z = texture3D(volume, vec3(texPosPvec[2]))[c];
+284:   g2.x = texture3D(volume, vec3(texPosNvec[0]))[c];
+285:   g2.y = texture3D(volume, vec3(texPosNvec[1]))[c];
+286:   g2.z = texture3D(volume, vec3(texPosNvec[2]))[c];
+287: 
+288:   // Apply scale and bias to the fetched values.
+289:   g1 = g1 * in_volume_scale[index][c] + in_volume_bias[index][c];
+290:   g2 = g2 * in_volume_scale[index][c] + in_volume_bias[index][c];
+291: 
+292:   // Scale values the actual scalar range.
+293:   float range = in_scalarsRange[4*index+c][1] - in_scalarsRange[4*index+c][0];
+294:   g1 = in_scalarsRange[4*index+c][0] + range * g1;
+295:   g2 = in_scalarsRange[4*index+c][0] + range * g2;
+296: 
+297:   // Central differences: (F_front - F_back) / 2h
+298:   g2 = g1 - g2;
+299: 
+300:   float avgSpacing = (in_cellSpacing[index].x +
+301:    in_cellSpacing[index].y + in_cellSpacing[index].z) / 3.0;
+302:   vec3 aspect = in_cellSpacing[index] * 2.0 / avgSpacing;
+303:   g2 /= aspect;
+304:   float grad_mag = length(g2);
+305: 
+306:   // Handle normalizing with grad_mag == 0.0
+307:   g2 = grad_mag > 0.0 ? normalize(g2) : vec3(0.0);
+308: 
+309:   // Since the actual range of the gradient magnitude is unknown,
+310:   // assume it is in the range [0, 0.25 * dataRange].
+311:   range = range != 0 ? range : 1.0;
+312:   grad_mag = grad_mag / (0.25 * range);
+313:   grad_mag = clamp(grad_mag, 0.0, 1.0);
+314: 
+315:   return vec4(g2.xyz, grad_mag);
+316: }
+317: 
+318: 
+319: //VTK::ComputeDensityGradient::Dec
+320: 
+321: //VTK::ComputeVolumetricShadow::Dec
+322: 
+323:       
+324: vec4 computeLighting(vec4 color, int component, float label)      
+325: {      
+326:   vec4 finalColor = vec4(0.0);
+327: 
+328:   int lightingComponent=component;
+329:   vec4 gradient = computeGradient(g_dataPos, component, in_volume[0], 0);
+330: 
+331:   finalColor = vec4(color.rgb, 0.0);            
+332:   if (gradient.w >= 0.0 && label == 0.0)            
+333:     {            
+334:     color.a *= computeGradientOpacity(gradient);            
+335:     }      
+336:   finalColor.a = color.a;      
+337:   return finalColor;      
+338:   }
+339: 
+340:           
+341: vec4 computeColor(vec4 scalar, float opacity)          
+342:   {          
+343:   return clamp(computeLighting(vec4(texture2D(in_colorTransferFunc_0[0],          
+344:                          vec2(scalar.w, 0.0)).xyz, opacity), 0, 0.0), 0.0, 1.0);          
+345:   }
+346: 
+347:         
+348: vec3 computeRayDirection()        
+349:   {        
+350:   return normalize(ip_vertexPos.xyz - g_eyePosObj.xyz);        
+351:   }
+352: 
+353: //VTK::Picking::Dec
+354: 
+355: //VTK::RenderToImage::Dec
+356: 
+357: //VTK::DepthPeeling::Dec
+358: 
+359: uniform float in_scale;
+360: uniform float in_bias;
+361: 
+362: //////////////////////////////////////////////////////////////////////////////
+363: ///
+364: /// Helper functions
+365: ///
+366: //////////////////////////////////////////////////////////////////////////////
+367: 
+368: /**
+369:  * Transform window coordinate to NDC.
+370:  */
+371: vec4 WindowToNDC(const float xCoord, const float yCoord, const float zCoord)
+372: {
+373:   vec4 NDCCoord = vec4(0.0, 0.0, 0.0, 1.0);
+374: 
+375:   NDCCoord.x = (xCoord - in_windowLowerLeftCorner.x) * 2.0 *
+376:     in_inverseWindowSize.x - 1.0;
+377:   NDCCoord.y = (yCoord - in_windowLowerLeftCorner.y) * 2.0 *
+378:     in_inverseWindowSize.y - 1.0;
+379:   NDCCoord.z = (2.0 * zCoord - (gl_DepthRange.near + gl_DepthRange.far)) /
+380:     gl_DepthRange.diff;
+381: 
+382:   return NDCCoord;
+383: }
+384: 
+385: /**
+386:  * Transform NDC coordinate to window coordinates.
+387:  */
+388: vec4 NDCToWindow(const float xNDC, const float yNDC, const float zNDC)
+389: {
+390:   vec4 WinCoord = vec4(0.0, 0.0, 0.0, 1.0);
+391: 
+392:   WinCoord.x = (xNDC + 1.f) / (2.f * in_inverseWindowSize.x) +
+393:     in_windowLowerLeftCorner.x;
+394:   WinCoord.y = (yNDC + 1.f) / (2.f * in_inverseWindowSize.y) +
+395:     in_windowLowerLeftCorner.y;
+396:   WinCoord.z = (zNDC * gl_DepthRange.diff +
+397:     (gl_DepthRange.near + gl_DepthRange.far)) / 2.f;
+398: 
+399:   return WinCoord;
+400: }
+401: 
+402: /**
+403:  * Clamps the texture coordinate vector @a pos to a new position in the set
+404:  * { start + i * step }, where i is an integer. If @a ceiling
+405:  * is true, the sample located further in the direction of @a step is used,
+406:  * otherwise the sample location closer to the eye is used.
+407:  * This function assumes both start and pos already have jittering applied.
+408:  */
+409: vec3 ClampToSampleLocation(vec3 start, vec3 step, vec3 pos, bool ceiling)
+410: {
+411:   vec3 offset = pos - start;
+412:   float stepLength = length(step);
+413: 
+414:   // Scalar projection of offset on step:
+415:   float dist = dot(offset, step / stepLength);
+416:   if (dist < 0.) // Don't move before the start position:
+417:   {
+418:     return start;
+419:   }
+420: 
+421:   // Number of steps
+422:   float steps = dist / stepLength;
+423: 
+424:   // If we're reeaaaaallly close, just round -- it's likely just numerical noise
+425:   // and the value should be considered exact.
+426:   if (abs(mod(steps, 1.)) > 1e-5)
+427:   {
+428:     if (ceiling)
+429:     {
+430:       steps = ceil(steps);
+431:     }
+432:     else
+433:     {
+434:       steps = floor(steps);
+435:     }
+436:   }
+437:   else
+438:   {
+439:     steps = floor(steps + 0.5);
+440:   }
+441: 
+442:   return start + steps * step;
+443: }
+444: 
+445: //////////////////////////////////////////////////////////////////////////////
+446: ///
+447: /// Ray-casting
+448: ///
+449: //////////////////////////////////////////////////////////////////////////////
+450: 
+451: /**
+452:  * Global initialization. This method should only be called once per shader
+453:  * invocation regardless of whether castRay() is called several times (e.g.
+454:  * vtkDualDepthPeelingPass). Any castRay() specific initialization should be
+455:  * placed within that function.
+456:  */
+457: void initializeRayCast()
+458: {
+459:   /// Initialize g_fragColor (output) to 0
+460:   g_fragColor = vec4(0.0);
+461:   g_dirStep = vec3(0.0);
+462:   g_srcColor = vec4(0.0);
+463:   g_exit = false;
+464: 
+465:           
+466:   // Get the 3D texture coordinates for lookup into the in_volume dataset        
+467:   g_rayOrigin = ip_textureCoords.xyz;      
+468:       
+469:   // Eye position in dataset space      
+470:   g_eyePosObj = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);      
+471:   g_eyePosObjs[0] = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);
+472:       
+473:   // Getting the ray marching direction (in dataset space)      
+474:   vec3 rayDir = computeRayDirection();      
+475:       
+476:   // 2D Texture fragment coordinates [0,1] from fragment coordinates.      
+477:   // The frame buffer texture has the size of the plain buffer but       
+478:   // we use a fraction of it. The texture coordinate is less than 1 if      
+479:   // the reduction factor is less than 1.      
+480:   // Device coordinates are between -1 and 1. We need texture      
+481:   // coordinates between 0 and 1. The in_depthSampler      
+482:   // buffer has the original size buffer.      
+483:   vec2 fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+484:                       in_inverseWindowSize;      
+485:       
+486:   // Multiply the raymarching direction with the step size to get the      
+487:   // sub-step size we need to take at each raymarching step      
+488:   g_dirStep = (ip_inverseTextureDataAdjusted *      
+489:               vec4(rayDir, 0.0)).xyz * in_sampleDistance;      
+490:   g_lengthStep = length(g_dirStep);      
+491:           
+492:  float jitterValue = 0.0;          
+493:         
+494:     g_rayJitter = g_dirStep;        
+495:         
+496:   g_rayOrigin += g_rayJitter;        
+497:       
+498:   // Flag to determine if voxel should be considered for the rendering      
+499:   g_skip = false;
+500: 
+501:   
+502: 
+503:         
+504:   // Flag to indicate if the raymarch loop should terminate       
+505:   bool stop = false;      
+506:       
+507:   g_terminatePointMax = 0.0;      
+508:       
+509:   vec4 l_depthValue = texture2D(in_depthSampler, fragTexCoord);      
+510:   // Depth test      
+511:   if(gl_FragCoord.z >= l_depthValue.x)      
+512:     {      
+513:     discard;      
+514:     }      
+515:       
+516:   // color buffer or max scalar buffer have a reduced size.      
+517:   fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+518:                  in_inverseOriginalWindowSize;      
+519:       
+520:   // Compute max number of iterations it will take before we hit      
+521:   // the termination point      
+522:       
+523:   // Abscissa of the point on the depth buffer along the ray.      
+524:   // point in texture coordinates      
+525:   vec4 rayTermination = WindowToNDC(gl_FragCoord.x, gl_FragCoord.y, l_depthValue.x);      
+526:       
+527:   // From normalized device coordinates to eye coordinates.      
+528:   // in_projectionMatrix is inversed because of way VT      
+529:   // From eye coordinates to texture coordinates      
+530:   rayTermination = ip_inverseTextureDataAdjusted *      
+531:                     in_inverseVolumeMatrix[0] *      
+532:                     in_inverseModelViewMatrix *      
+533:                     in_inverseProjectionMatrix *      
+534:                     rayTermination;      
+535:   g_rayTermination = rayTermination.xyz / rayTermination.w;      
+536:       
+537:   // Setup the current segment:      
+538:   g_dataPos = g_rayOrigin;      
+539:   g_terminatePos = g_rayTermination;      
+540:       
+541:   g_terminatePointMax = length(g_terminatePos.xyz - g_dataPos.xyz) /      
+542:                         length(g_dirStep);      
+543:   g_currentT = 0.0;
+544: 
+545:   
+546: 
+547:   //VTK::RenderToImage::Init
+548: 
+549:   //VTK::DepthPass::Init
+550: 
+551:   //VTK::Matrices::Init
+552: 
+553:   g_jitterValue = jitterValue;
+554: }
+555: 
+556: /**
+557:  * March along the ray direction sampling the volume texture.  This function
+558:  * takes a start and end point as arguments but it is up to the specific render
+559:  * pass implementation to use these values (e.g. vtkDualDepthPeelingPass). The
+560:  * mapper does not use these values by default, instead it uses the number of
+561:  * steps defined by g_terminatePointMax.
+562:  */
+563: vec4 castRay(const float zStart, const float zEnd)
+564: {
+565:   //VTK::DepthPeeling::Ray::Init
+566: 
+567:   
+568: 
+569:   //VTK::DepthPeeling::Ray::PathCheck
+570: 
+571:   
+572: 
+573:   /// For all samples along the ray
+574:   while (!g_exit)
+575:   {
+576:           
+577:     g_skip = false;
+578: 
+579:     
+580: 
+581:     
+582: 
+583:     
+584: 
+585:     //VTK::PreComputeGradients::Impl
+586: 
+587:     
+588:     if (!g_skip)
+589:     {
+590:       vec4 scalar = texture3D(in_volume[0], g_dataPos);
+591:       scalar.r = scalar.r * in_volume_scale[0].r + in_volume_bias[0].r;
+592:       scalar = vec4(scalar.r);
+593:       g_srcColor = vec4(0.0);
+594:       float inAlpha = computeOpacity(scalar);
+595:       if(inAlpha > sampleThreshold && virtualAlpha < VAT)
+596:       {
+597:       vec4 n = ComputeGradient(in_volume[0], g_dataPos, gradStep);
+598:       if(n.a > 0.0)
+599:       {
+600:         vec3 lightPos = g_eyePosObj.xyz;
+601:         vec3 viewPos = -g_eyePosObj.xyz - vec3(0.1, 0.0, 0.0);
+602:         vec3 lightColor = vec3(1.0, 1.0, 1.0);
+603:         vec3 objectColor = vec3(1.0, 1.0, 1.0);
+604:         vec3 norm = n.rgb;
+605:         vec3 lightDir = normalize(lightPos - g_dataPos);
+606:         vec3 diffuse = vec3(1.0, 1.0, 1.0) * 1.2;
+607:         vec3 viewDir = normalize(viewPos - g_dataPos);
+608:         vec3 reflectDir = reflect(-lightDir, norm);
+609:         float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64.0);
+610:         vec3 specular = 10.0 * spec * lightColor;
+611:         vec3 result = (diffuse + specular) * objectColor;
+612:         float factor = computeOpacity(n) * (1.0 - abs(dot(normalize(g_dirStep), n.rgb)));
+613:         float alpha = smoothstep(step.x, step.y, factor) * 0.3;
+614:         g_srcColor = vec4(result, alpha);
+615:       }
+616:       }
+617:       virtualAlpha += (1 - virtualAlpha) * inAlpha;
+618:       g_srcColor.rgb *= g_srcColor.a;
+619:       
+620:       // Blur code
+621:       vec4 sum = vec4(0.0);
+622:       vec2 tc = vTexCoord;
+623:       float blur = radius / resolution;
+624:       float hstep = dir.x;
+625:       float vstep = dir.y;
+626:       sum += texture2D(u_texture, vec2(tc.x - 4.0 * blur * hstep, tc.y - 4.0 * blur * vstep)) * 0.0162162162;
+627:       sum += texture2D(u_texture, vec2(tc.x - 3.0 * blur * hstep, tc.y - 3.0 * blur * vstep)) * 0.0540540541;
+628:       sum += texture2D(u_texture, vec2(tc.x - 2.0 * blur * hstep, tc.y - 2.0 * blur * vstep)) * 0.1216216216;
+629:       sum += texture2D(u_texture, vec2(tc.x - 1.0 * blur * hstep, tc.y - 1.0 * blur * vstep)) * 0.1945945946;
+630:       sum += texture2D(u_texture, vec2(tc.x, tc.y)) * 0.2270270270;
+631:       sum += texture2D(u_texture, vec2(tc.x + 1.0 * blur * hstep, tc.y + 1.0 * blur * vstep)) * 0.1945945946;
+632:       sum += texture2D(u_texture, vec2(tc.x + 2.0 * blur * hstep, tc.y + 2.0 * blur * vstep)) * 0.1216216216;
+633:       sum += texture2D(u_texture, vec2(tc.x + 3.0 * blur * hstep, tc.y + 3.0 * blur * vstep)) * 0.0540540541;
+634:       sum += texture2D(u_texture, vec2(tc.x + 4.0 * blur * hstep, tc.y + 4.0 * blur * vstep)) * 0.0162162162;
+635: 
+636:       g_srcColor *= sum;
+637:       g_fragColor = (1.0f - g_fragColor.a) * g_srcColor + g_fragColor;
+638:     }
+639:     
+640: 
+641:     //VTK::RenderToImage::Impl
+642: 
+643:     //VTK::DepthPass::Impl
+644: 
+645:     /// Advance ray
+646:     g_dataPos += g_dirStep;
+647: 
+648:           
+649:     if(any(greaterThan(max(g_dirStep, vec3(0.0))*(g_dataPos - in_texMax[0]),vec3(0.0))) ||      
+650:       any(greaterThan(min(g_dirStep, vec3(0.0))*(g_dataPos - in_texMin[0]),vec3(0.0))))      
+651:       {      
+652:       break;      
+653:       }      
+654:       
+655:     // Early ray termination      
+656:     // if the currently composited colour alpha is already fully saturated      
+657:     // we terminated the loop or if we have hit an obstacle in the      
+658:     // direction of they ray (using depth buffer) we terminate as well.      
+659:     if((g_fragColor.a > g_opacityThreshold) ||       
+660:        g_currentT >= g_terminatePointMax)      
+661:       {      
+662:       break;      
+663:       }      
+664:     ++g_currentT;
+665:   }
+666: 
+667:   
+668: 
+669:   return g_fragColor;
+670: }
+671: 
+672: /**
+673:  * Finalize specific modes and set output data.
+674:  */
+675: void finalizeRayCast()
+676: {
+677:   
+678: 
+679:   
+680: 
+681:   
+682: 
+683:   
+684: 
+685:   //VTK::Picking::Exit
+686: 
+687:   g_fragColor.r = g_fragColor.r * in_scale + in_bias * g_fragColor.a;
+688:   g_fragColor.g = g_fragColor.g * in_scale + in_bias * g_fragColor.a;
+689:   g_fragColor.b = g_fragColor.b * in_scale + in_bias * g_fragColor.a;
+690:   fragOutput0 = g_fragColor;
+691: 
+692:   //VTK::RenderToImage::Exit
+693: 
+694:   //VTK::DepthPass::Exit
+695: }
+696: 
+697: //////////////////////////////////////////////////////////////////////////////
+698: ///
+699: /// Main
+700: ///
+701: //////////////////////////////////////////////////////////////////////////////
+702: void main()
+703: {
+704:       
+705:   initializeRayCast();    
+706:   castRay(-1.0, -1.0);    
+707:   finalizeRayCast();
+708: }
+[ERROR][VTK] 17.07.2024 17:00:11 [vtkShaderProgram (00000156EEA5E6F0)] (vtkShaderProgram.cxx:454) - ERROR: 0:622: 'vTexCoord' : undeclared identifier 
+ERROR: 0:622: '=' :  cannot convert from 'highp float' to '2-component vector of highp float'
+ERROR: 0:624: 'dir' : undeclared identifier 
+ERROR: 0:624: 'x' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:625: 'y' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:626: 'u_texture' : undeclared identifier 
+ERROR: 0:626: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:626: 'texture' : function is not known 
+ERROR: 0:627: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:627: 'texture' : function is not known 
+ERROR: 0:628: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:628: 'texture' : function is not known 
+ERROR: 0:629: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:629: 'texture' : function is not known 
+ERROR: 0:630: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:630: 'texture' : function is not known 
+ERROR: 0:631: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:631: 'texture' : function is not known 
+ERROR: 0:632: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:632: 'texture' : function is not known 
+ERROR: 0:633: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:633: 'texture' : function is not known 
+ERROR: 0:634: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:634: 'texture' : function is not known
+[ERROR][VTK] 17.07.2024 17:00:11 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:28 [] (unknown:0) -
+[WARNING][Qt] 17.07.2024 17:01:28 [] (unknown:0) - ctkRangeWidget::setSingleStep( 0.01 ) is outside valid bounds
+[ERROR][VTK] 17.07.2024 17:01:28 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:453) - 1: #version 150
+2: #ifdef GL_ES
+3: #ifdef GL_FRAGMENT_PRECISION_HIGH
+4: precision highp float;
+5: precision highp sampler2D;
+6: precision highp sampler3D;
+7: #else
+8: precision mediump float;
+9: precision mediump sampler2D;
+10: precision mediump sampler3D;
+11: #endif
+12: #define texelFetchBuffer texelFetch
+13: #define texture1D texture
+14: #define texture2D texture
+15: #define texture3D texture
+16: #else // GL_ES
+17: #define highp
+18: #define mediump
+19: #define lowp
+20: #if __VERSION__ == 150
+21: #define texelFetchBuffer texelFetch
+22: #define texture1D texture
+23: #define texture2D texture
+24: #define texture3D texture
+25: #endif
+26: #endif // GL_ES
+27: #define varying in
+28: 
+29: 
+30: /*=========================================================================
+31: 
+32:   Program:   Visualization Toolkit
+33:   Module:    raycasterfs.glsl
+34: 
+35:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+36:   All rights reserved.
+37:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+38: 
+39:      This software is distributed WITHOUT ANY WARRANTY; without even
+40:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+41:      PURPOSE.  See the above copyright notice for more information.
+42: 
+43: =========================================================================*/
+44: 
+45: //////////////////////////////////////////////////////////////////////////////
+46: ///
+47: /// Inputs
+48: ///
+49: //////////////////////////////////////////////////////////////////////////////
+50: 
+51: /// 3D texture coordinates form vertex shader
+52: in vec3 ip_textureCoords;
+53: in vec3 ip_vertexPos;
+54: 
+55: //////////////////////////////////////////////////////////////////////////////
+56: ///
+57: /// Outputs
+58: ///
+59: //////////////////////////////////////////////////////////////////////////////
+60: 
+61: vec4 g_fragColor = vec4(0.0);
+62: 
+63: //////////////////////////////////////////////////////////////////////////////
+64: ///
+65: /// Uniforms, attributes, and globals
+66: ///
+67: //////////////////////////////////////////////////////////////////////////////
+68: vec3 g_dirStep;
+69: float g_lengthStep = 0.0;
+70: vec4 g_srcColor;
+71: vec4 g_eyePosObj;
+72: bool g_exit;
+73: bool g_skip;
+74: float g_currentT;
+75: float g_terminatePointMax;
+76: 
+77: // These describe the entire ray for this scene, not just the current depth
+78: // peeling segment. These are texture coordinates.
+79: vec3 g_rayOrigin; // Entry point of volume or clip point
+80: vec3 g_rayTermination; // Termination point (depth, clip, etc)
+81: 
+82: // These describe the current segment. If not peeling, they are initialized to
+83: // the ray endpoints.
+84: vec3 g_dataPos;
+85: vec3 g_terminatePos;
+86: 
+87: float g_jitterValue = 0.0;
+88: 
+89: uniform float VAT;
+90: uniform float dirMax;
+91: uniform float dirMin;
+92: uniform float gradStep;
+93: uniform float lightIntensity;
+94: uniform float radius;
+95: uniform float resolution;
+96: uniform float stepMax;
+97: uniform float stepMin;
+98: uniform float threshold;
+99: 
+100: 
+101: out vec4 fragOutput0;
+102: 
+103: 
+104: uniform sampler3D in_volume[1];
+105: uniform vec4 in_volume_scale[1];
+106: uniform vec4 in_volume_bias[1];
+107: uniform int in_noOfComponents;
+108: 
+109: uniform sampler2D in_depthSampler;
+110: 
+111: // Camera position
+112: uniform vec3 in_cameraPos;
+113: uniform mat4 in_volumeMatrix[1];
+114: uniform mat4 in_inverseVolumeMatrix[1];
+115: uniform mat4 in_textureDatasetMatrix[1];
+116: uniform mat4 in_inverseTextureDatasetMatrix[1];
+117: uniform mat4 in_textureToEye[1];
+118: uniform vec3 in_texMin[1];
+119: uniform vec3 in_texMax[1];
+120: uniform mat4 in_cellToPoint[1];
+121: // view and model matrices
+122: uniform mat4 in_projectionMatrix;
+123: uniform mat4 in_inverseProjectionMatrix;
+124: uniform mat4 in_modelViewMatrix;
+125: uniform mat4 in_inverseModelViewMatrix;
+126: in mat4 ip_inverseTextureDataAdjusted;
+127: 
+128: // Ray step size
+129: uniform vec3 in_cellStep[1];
+130: uniform vec2 in_scalarsRange[4];
+131: uniform vec3 in_cellSpacing[1];
+132: 
+133: // Sample distance
+134: uniform float in_sampleDistance;
+135: 
+136: // Scales
+137: uniform vec2 in_windowLowerLeftCorner;
+138: uniform vec2 in_inverseOriginalWindowSize;
+139: uniform vec2 in_inverseWindowSize;
+140: uniform vec3 in_textureExtentsMax;
+141: uniform vec3 in_textureExtentsMin;
+142: 
+143: // Material and lighting
+144: uniform vec3 in_diffuse[4];
+145: uniform vec3 in_ambient[4];
+146: uniform vec3 in_specular[4];
+147: uniform float in_shininess[4];
+148: 
+149: // Others
+150: vec3 g_rayJitter = vec3(0.0);
+151: 
+152: uniform vec2 in_averageIPRange;
+153: vec4 g_eyePosObjs[1];
+154: uniform bool in_twoSidedLighting;
+155: 
+156: 
+157:       
+158:  const float g_opacityThreshold = 1.0 - 1.0 / 255.0;
+159: 
+160: 
+161: 
+162:     vec4 ComputeGradient(in sampler3D volume, vec3 pos, float gradStep)
+163:     {
+164:       vec3 g1;
+165:       g1.x = texture3D(volume, pos + vec3(gradStep,0.0,0.0) ).x;
+166:       g1.y = texture3D(volume, pos +  vec3(0.0, gradStep, 0.0)).x;
+167:       g1.z = texture3D(volume, pos +  vec3(0.0,0.0, gradStep)).x;
+168:       vec3 g2;
+169:       g2.x = texture3D(volume, pos -  vec3(gradStep,0.0,0.0)).x;
+170:       g2.y = texture3D(volume, pos -  vec3(0.0, gradStep, 0.0)).x;
+171:       g2.z = texture3D(volume, pos -  vec3(0.0,0.0, gradStep)).x;
+172:       vec3 n = (g2 - g1) / (2.0 * gradStep);
+173:       float nLength = length(n);
+174:       if(nLength > 0.0)
+175:           n = normalize(n);
+176:       else
+177:           n = vec3(0.0, 0.0, 0.0);
+178:       vec4 ret;
+179:       ret.rgb = n;
+180:       ret.a = nLength;
+181:       return ret;
+182:     }
+183: 
+184:     float sampleThreshold = threshold;
+185:     vec2 step = vec2(stepMin, stepMax);
+186:     float virtualAlpha = 0.0;
+187:     
+188: 
+189: 
+190: 
+191: #define EPSILON 0.001
+192: 
+193: // Computes the intersection between a ray and a box
+194: // The box should be axis aligned so we only give two arguments
+195: struct Hit
+196: {
+197:   float tmin;
+198:   float tmax;
+199: };
+200: 
+201: struct Ray
+202: {
+203:   vec3 origin;
+204:   vec3 dir;
+205:   vec3 invDir;
+206: };
+207: 
+208: bool BBoxIntersect(const vec3 boxMin, const vec3 boxMax, const Ray r, out Hit hit)
+209: {
+210:   vec3 tbot = r.invDir * (boxMin - r.origin);
+211:   vec3 ttop = r.invDir * (boxMax - r.origin);
+212:   vec3 tmin = min(ttop, tbot);
+213:   vec3 tmax = max(ttop, tbot);
+214:   vec2 t = max(tmin.xx, tmin.yz);
+215:   float t0 = max(t.x, t.y);
+216:   t = min(tmax.xx, tmax.yz);
+217:   float t1 = min(t.x, t.y);
+218:   hit.tmin = t0;
+219:   hit.tmax = t1;
+220:   return t1 > max(t0, 0.0);
+221: }
+222: 
+223: // As BBoxIntersect requires the inverse of the ray coords,
+224: // this function is used to avoid numerical issues
+225: void safe_0_vector(inout Ray ray)
+226: {
+227:   if(abs(ray.dir.x) < EPSILON) ray.dir.x = sign(ray.dir.x) * EPSILON;
+228:   if(abs(ray.dir.y) < EPSILON) ray.dir.y = sign(ray.dir.y) * EPSILON;
+229:   if(abs(ray.dir.z) < EPSILON) ray.dir.z = sign(ray.dir.z) * EPSILON;
+230: }
+231: 
+232: // the phase function should be normalized to 4pi for compatibility with surface rendering
+233: //VTK::PhaseFunction::Dec
+234: 
+235: uniform sampler2D in_colorTransferFunc_0[1];
+236: 
+237: 
+238: 
+239: 
+240: 
+241: 
+242: 
+243: 
+244: //VTK::GradientCache::Dec
+245: 
+246: //VTK::Transfer2D::Dec
+247: 
+248: uniform sampler2D in_gradientTransferFunc_0[1];
+249:           
+250: float computeGradientOpacity(vec4 grad)          
+251:   {          
+252:   return texture2D(in_gradientTransferFunc_0[0], vec2(grad.w, 0.0)).r;          
+253:   }
+254: 
+255: uniform sampler2D in_opacityTransferFunc_0[1];
+256:         
+257: float computeOpacity(vec4 scalar)        
+258: {        
+259:   return texture2D(in_opacityTransferFunc_0[0], vec2(scalar.w, 0)).r;        
+260: }
+261: 
+262: //VTK::ComputeRGBA2DWithGradient::Dec
+263: 
+264: // c is short for component
+265: vec4 computeGradient(in vec3 texPos, in int c, in sampler3D volume,in int index)
+266: {
+267:   // Approximate Nabla(F) derivatives with central differences.
+268:   vec3 g1; // F_front
+269:   vec3 g2; // F_back
+270:   vec3 xvec = vec3(in_cellStep[index].x, 0.0, 0.0);
+271:   vec3 yvec = vec3(0.0, in_cellStep[index].y, 0.0);
+272:   vec3 zvec = vec3(0.0, 0.0, in_cellStep[index].z);
+273:   vec3 texPosPvec[3];
+274:   texPosPvec[0] = texPos + xvec;
+275:   texPosPvec[1] = texPos + yvec;
+276:   texPosPvec[2] = texPos + zvec;
+277:   vec3 texPosNvec[3];
+278:   texPosNvec[0] = texPos - xvec;
+279:   texPosNvec[1] = texPos - yvec;
+280:   texPosNvec[2] = texPos - zvec;
+281:   g1.x = texture3D(volume, vec3(texPosPvec[0]))[c];
+282:   g1.y = texture3D(volume, vec3(texPosPvec[1]))[c];
+283:   g1.z = texture3D(volume, vec3(texPosPvec[2]))[c];
+284:   g2.x = texture3D(volume, vec3(texPosNvec[0]))[c];
+285:   g2.y = texture3D(volume, vec3(texPosNvec[1]))[c];
+286:   g2.z = texture3D(volume, vec3(texPosNvec[2]))[c];
+287: 
+288:   // Apply scale and bias to the fetched values.
+289:   g1 = g1 * in_volume_scale[index][c] + in_volume_bias[index][c];
+290:   g2 = g2 * in_volume_scale[index][c] + in_volume_bias[index][c];
+291: 
+292:   // Scale values the actual scalar range.
+293:   float range = in_scalarsRange[4*index+c][1] - in_scalarsRange[4*index+c][0];
+294:   g1 = in_scalarsRange[4*index+c][0] + range * g1;
+295:   g2 = in_scalarsRange[4*index+c][0] + range * g2;
+296: 
+297:   // Central differences: (F_front - F_back) / 2h
+298:   g2 = g1 - g2;
+299: 
+300:   float avgSpacing = (in_cellSpacing[index].x +
+301:    in_cellSpacing[index].y + in_cellSpacing[index].z) / 3.0;
+302:   vec3 aspect = in_cellSpacing[index] * 2.0 / avgSpacing;
+303:   g2 /= aspect;
+304:   float grad_mag = length(g2);
+305: 
+306:   // Handle normalizing with grad_mag == 0.0
+307:   g2 = grad_mag > 0.0 ? normalize(g2) : vec3(0.0);
+308: 
+309:   // Since the actual range of the gradient magnitude is unknown,
+310:   // assume it is in the range [0, 0.25 * dataRange].
+311:   range = range != 0 ? range : 1.0;
+312:   grad_mag = grad_mag / (0.25 * range);
+313:   grad_mag = clamp(grad_mag, 0.0, 1.0);
+314: 
+315:   return vec4(g2.xyz, grad_mag);
+316: }
+317: 
+318: 
+319: //VTK::ComputeDensityGradient::Dec
+320: 
+321: //VTK::ComputeVolumetricShadow::Dec
+322: 
+323:       
+324: vec4 computeLighting(vec4 color, int component, float label)      
+325: {      
+326:   vec4 finalColor = vec4(0.0);
+327: 
+328:   int lightingComponent=component;
+329:   vec4 gradient = computeGradient(g_dataPos, component, in_volume[0], 0);
+330: 
+331:   finalColor = vec4(color.rgb, 0.0);            
+332:   if (gradient.w >= 0.0 && label == 0.0)            
+333:     {            
+334:     color.a *= computeGradientOpacity(gradient);            
+335:     }      
+336:   finalColor.a = color.a;      
+337:   return finalColor;      
+338:   }
+339: 
+340:           
+341: vec4 computeColor(vec4 scalar, float opacity)          
+342:   {          
+343:   return clamp(computeLighting(vec4(texture2D(in_colorTransferFunc_0[0],          
+344:                          vec2(scalar.w, 0.0)).xyz, opacity), 0, 0.0), 0.0, 1.0);          
+345:   }
+346: 
+347:         
+348: vec3 computeRayDirection()        
+349:   {        
+350:   return normalize(ip_vertexPos.xyz - g_eyePosObj.xyz);        
+351:   }
+352: 
+353: //VTK::Picking::Dec
+354: 
+355: //VTK::RenderToImage::Dec
+356: 
+357: //VTK::DepthPeeling::Dec
+358: 
+359: uniform float in_scale;
+360: uniform float in_bias;
+361: 
+362: //////////////////////////////////////////////////////////////////////////////
+363: ///
+364: /// Helper functions
+365: ///
+366: //////////////////////////////////////////////////////////////////////////////
+367: 
+368: /**
+369:  * Transform window coordinate to NDC.
+370:  */
+371: vec4 WindowToNDC(const float xCoord, const float yCoord, const float zCoord)
+372: {
+373:   vec4 NDCCoord = vec4(0.0, 0.0, 0.0, 1.0);
+374: 
+375:   NDCCoord.x = (xCoord - in_windowLowerLeftCorner.x) * 2.0 *
+376:     in_inverseWindowSize.x - 1.0;
+377:   NDCCoord.y = (yCoord - in_windowLowerLeftCorner.y) * 2.0 *
+378:     in_inverseWindowSize.y - 1.0;
+379:   NDCCoord.z = (2.0 * zCoord - (gl_DepthRange.near + gl_DepthRange.far)) /
+380:     gl_DepthRange.diff;
+381: 
+382:   return NDCCoord;
+383: }
+384: 
+385: /**
+386:  * Transform NDC coordinate to window coordinates.
+387:  */
+388: vec4 NDCToWindow(const float xNDC, const float yNDC, const float zNDC)
+389: {
+390:   vec4 WinCoord = vec4(0.0, 0.0, 0.0, 1.0);
+391: 
+392:   WinCoord.x = (xNDC + 1.f) / (2.f * in_inverseWindowSize.x) +
+393:     in_windowLowerLeftCorner.x;
+394:   WinCoord.y = (yNDC + 1.f) / (2.f * in_inverseWindowSize.y) +
+395:     in_windowLowerLeftCorner.y;
+396:   WinCoord.z = (zNDC * gl_DepthRange.diff +
+397:     (gl_DepthRange.near + gl_DepthRange.far)) / 2.f;
+398: 
+399:   return WinCoord;
+400: }
+401: 
+402: /**
+403:  * Clamps the texture coordinate vector @a pos to a new position in the set
+404:  * { start + i * step }, where i is an integer. If @a ceiling
+405:  * is true, the sample located further in the direction of @a step is used,
+406:  * otherwise the sample location closer to the eye is used.
+407:  * This function assumes both start and pos already have jittering applied.
+408:  */
+409: vec3 ClampToSampleLocation(vec3 start, vec3 step, vec3 pos, bool ceiling)
+410: {
+411:   vec3 offset = pos - start;
+412:   float stepLength = length(step);
+413: 
+414:   // Scalar projection of offset on step:
+415:   float dist = dot(offset, step / stepLength);
+416:   if (dist < 0.) // Don't move before the start position:
+417:   {
+418:     return start;
+419:   }
+420: 
+421:   // Number of steps
+422:   float steps = dist / stepLength;
+423: 
+424:   // If we're reeaaaaallly close, just round -- it's likely just numerical noise
+425:   // and the value should be considered exact.
+426:   if (abs(mod(steps, 1.)) > 1e-5)
+427:   {
+428:     if (ceiling)
+429:     {
+430:       steps = ceil(steps);
+431:     }
+432:     else
+433:     {
+434:       steps = floor(steps);
+435:     }
+436:   }
+437:   else
+438:   {
+439:     steps = floor(steps + 0.5);
+440:   }
+441: 
+442:   return start + steps * step;
+443: }
+444: 
+445: //////////////////////////////////////////////////////////////////////////////
+446: ///
+447: /// Ray-casting
+448: ///
+449: //////////////////////////////////////////////////////////////////////////////
+450: 
+451: /**
+452:  * Global initialization. This method should only be called once per shader
+453:  * invocation regardless of whether castRay() is called several times (e.g.
+454:  * vtkDualDepthPeelingPass). Any castRay() specific initialization should be
+455:  * placed within that function.
+456:  */
+457: void initializeRayCast()
+458: {
+459:   /// Initialize g_fragColor (output) to 0
+460:   g_fragColor = vec4(0.0);
+461:   g_dirStep = vec3(0.0);
+462:   g_srcColor = vec4(0.0);
+463:   g_exit = false;
+464: 
+465:           
+466:   // Get the 3D texture coordinates for lookup into the in_volume dataset        
+467:   g_rayOrigin = ip_textureCoords.xyz;      
+468:       
+469:   // Eye position in dataset space      
+470:   g_eyePosObj = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);      
+471:   g_eyePosObjs[0] = in_inverseVolumeMatrix[0] * vec4(in_cameraPos, 1.0);
+472:       
+473:   // Getting the ray marching direction (in dataset space)      
+474:   vec3 rayDir = computeRayDirection();      
+475:       
+476:   // 2D Texture fragment coordinates [0,1] from fragment coordinates.      
+477:   // The frame buffer texture has the size of the plain buffer but       
+478:   // we use a fraction of it. The texture coordinate is less than 1 if      
+479:   // the reduction factor is less than 1.      
+480:   // Device coordinates are between -1 and 1. We need texture      
+481:   // coordinates between 0 and 1. The in_depthSampler      
+482:   // buffer has the original size buffer.      
+483:   vec2 fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+484:                       in_inverseWindowSize;      
+485:       
+486:   // Multiply the raymarching direction with the step size to get the      
+487:   // sub-step size we need to take at each raymarching step      
+488:   g_dirStep = (ip_inverseTextureDataAdjusted *      
+489:               vec4(rayDir, 0.0)).xyz * in_sampleDistance;      
+490:   g_lengthStep = length(g_dirStep);      
+491:           
+492:  float jitterValue = 0.0;          
+493:         
+494:     g_rayJitter = g_dirStep;        
+495:         
+496:   g_rayOrigin += g_rayJitter;        
+497:       
+498:   // Flag to determine if voxel should be considered for the rendering      
+499:   g_skip = false;
+500: 
+501:   
+502: 
+503:         
+504:   // Flag to indicate if the raymarch loop should terminate       
+505:   bool stop = false;      
+506:       
+507:   g_terminatePointMax = 0.0;      
+508:       
+509:   vec4 l_depthValue = texture2D(in_depthSampler, fragTexCoord);      
+510:   // Depth test      
+511:   if(gl_FragCoord.z >= l_depthValue.x)      
+512:     {      
+513:     discard;      
+514:     }      
+515:       
+516:   // color buffer or max scalar buffer have a reduced size.      
+517:   fragTexCoord = (gl_FragCoord.xy - in_windowLowerLeftCorner) *      
+518:                  in_inverseOriginalWindowSize;      
+519:       
+520:   // Compute max number of iterations it will take before we hit      
+521:   // the termination point      
+522:       
+523:   // Abscissa of the point on the depth buffer along the ray.      
+524:   // point in texture coordinates      
+525:   vec4 rayTermination = WindowToNDC(gl_FragCoord.x, gl_FragCoord.y, l_depthValue.x);      
+526:       
+527:   // From normalized device coordinates to eye coordinates.      
+528:   // in_projectionMatrix is inversed because of way VT      
+529:   // From eye coordinates to texture coordinates      
+530:   rayTermination = ip_inverseTextureDataAdjusted *      
+531:                     in_inverseVolumeMatrix[0] *      
+532:                     in_inverseModelViewMatrix *      
+533:                     in_inverseProjectionMatrix *      
+534:                     rayTermination;      
+535:   g_rayTermination = rayTermination.xyz / rayTermination.w;      
+536:       
+537:   // Setup the current segment:      
+538:   g_dataPos = g_rayOrigin;      
+539:   g_terminatePos = g_rayTermination;      
+540:       
+541:   g_terminatePointMax = length(g_terminatePos.xyz - g_dataPos.xyz) /      
+542:                         length(g_dirStep);      
+543:   g_currentT = 0.0;
+544: 
+545:   
+546: 
+547:   //VTK::RenderToImage::Init
+548: 
+549:   //VTK::DepthPass::Init
+550: 
+551:   //VTK::Matrices::Init
+552: 
+553:   g_jitterValue = jitterValue;
+554: }
+555: 
+556: /**
+557:  * March along the ray direction sampling the volume texture.  This function
+558:  * takes a start and end point as arguments but it is up to the specific render
+559:  * pass implementation to use these values (e.g. vtkDualDepthPeelingPass). The
+560:  * mapper does not use these values by default, instead it uses the number of
+561:  * steps defined by g_terminatePointMax.
+562:  */
+563: vec4 castRay(const float zStart, const float zEnd)
+564: {
+565:   //VTK::DepthPeeling::Ray::Init
+566: 
+567:   
+568: 
+569:   //VTK::DepthPeeling::Ray::PathCheck
+570: 
+571:   
+572: 
+573:   /// For all samples along the ray
+574:   while (!g_exit)
+575:   {
+576:           
+577:     g_skip = false;
+578: 
+579:     
+580: 
+581:     
+582: 
+583:     
+584: 
+585:     //VTK::PreComputeGradients::Impl
+586: 
+587:     
+588:     if (!g_skip)
+589:     {
+590:       vec4 scalar = texture3D(in_volume[0], g_dataPos);
+591:       scalar.r = scalar.r * in_volume_scale[0].r + in_volume_bias[0].r;
+592:       scalar = vec4(scalar.r);
+593:       g_srcColor = vec4(0.0);
+594:       float inAlpha = computeOpacity(scalar);
+595:       if(inAlpha > sampleThreshold && virtualAlpha < VAT)
+596:       {
+597:       vec4 n = ComputeGradient(in_volume[0], g_dataPos, gradStep);
+598:       if(n.a > 0.0)
+599:       {
+600:         vec3 lightPos = g_eyePosObj.xyz;
+601:         vec3 viewPos = -g_eyePosObj.xyz - vec3(0.1, 0.0, 0.0);
+602:         vec3 lightColor = vec3(1.0, 1.0, 1.0);
+603:         vec3 objectColor = vec3(1.0, 1.0, 1.0);
+604:         vec3 norm = n.rgb;
+605:         vec3 lightDir = normalize(lightPos - g_dataPos);
+606:         vec3 diffuse = vec3(1.0, 1.0, 1.0) * 1.2;
+607:         vec3 viewDir = normalize(viewPos - g_dataPos);
+608:         vec3 reflectDir = reflect(-lightDir, norm);
+609:         float spec = pow(max(dot(viewDir, reflectDir), 0.0), 64.0);
+610:         vec3 specular = 10.0 * spec * lightColor;
+611:         vec3 result = (diffuse + specular) * objectColor;
+612:         float factor = computeOpacity(n) * (1.0 - abs(dot(normalize(g_dirStep), n.rgb)));
+613:         float alpha = smoothstep(step.x, step.y, factor) * 0.3;
+614:         g_srcColor = vec4(result, alpha);
+615:       }
+616:       }
+617:       virtualAlpha += (1 - virtualAlpha) * inAlpha;
+618:       g_srcColor.rgb *= g_srcColor.a;
+619:       
+620:       // Blur code
+621:       vec4 sum = vec4(0.0);
+622:       vec2 tc = g_dataPos.xy; // Use g_dataPos for texture coordinates
+623:       float blur = radius / resolution;
+624:       float hstep = dir.x;
+625:       float vstep = dir.y;
+626:       sum += texture(u_texture, vec2(tc.x - 4.0 * blur * hstep, tc.y - 4.0 * blur * vstep)) * 0.0162162162;
+627:       sum += texture(u_texture, vec2(tc.x - 3.0 * blur * hstep, tc.y - 3.0 * blur * vstep)) * 0.0540540541;
+628:       sum += texture(u_texture, vec2(tc.x - 2.0 * blur * hstep, tc.y - 2.0 * blur * vstep)) * 0.1216216216;
+629:       sum += texture(u_texture, vec2(tc.x - 1.0 * blur * hstep, tc.y - 1.0 * blur * vstep)) * 0.1945945946;
+630:       sum += texture(u_texture, vec2(tc.x, tc.y)) * 0.2270270270;
+631:       sum += texture(u_texture, vec2(tc.x + 1.0 * blur * hstep, tc.y + 1.0 * blur * vstep)) * 0.1945945946;
+632:       sum += texture(u_texture, vec2(tc.x + 2.0 * blur * hstep, tc.y + 2.0 * blur * vstep)) * 0.1216216216;
+633:       sum += texture(u_texture, vec2(tc.x + 3.0 * blur * hstep, tc.y + 3.0 * blur * vstep)) * 0.0540540541;
+634:       sum += texture(u_texture, vec2(tc.x + 4.0 * blur * hstep, tc.y + 4.0 * blur * vstep)) * 0.0162162162;
+635: 
+636:       g_srcColor *= sum;
+637:       g_fragColor = (1.0f - g_fragColor.a) * g_srcColor + g_fragColor;
+638:     }
+639:     
+640: 
+641:     //VTK::RenderToImage::Impl
+642: 
+643:     //VTK::DepthPass::Impl
+644: 
+645:     /// Advance ray
+646:     g_dataPos += g_dirStep;
+647: 
+648:           
+649:     if(any(greaterThan(max(g_dirStep, vec3(0.0))*(g_dataPos - in_texMax[0]),vec3(0.0))) ||      
+650:       any(greaterThan(min(g_dirStep, vec3(0.0))*(g_dataPos - in_texMin[0]),vec3(0.0))))      
+651:       {      
+652:       break;      
+653:       }      
+654:       
+655:     // Early ray termination      
+656:     // if the currently composited colour alpha is already fully saturated      
+657:     // we terminated the loop or if we have hit an obstacle in the      
+658:     // direction of they ray (using depth buffer) we terminate as well.      
+659:     if((g_fragColor.a > g_opacityThreshold) ||       
+660:        g_currentT >= g_terminatePointMax)      
+661:       {      
+662:       break;      
+663:       }      
+664:     ++g_currentT;
+665:   }
+666: 
+667:   
+668: 
+669:   return g_fragColor;
+670: }
+671: 
+672: /**
+673:  * Finalize specific modes and set output data.
+674:  */
+675: void finalizeRayCast()
+676: {
+677:   
+678: 
+679:   
+680: 
+681:   
+682: 
+683:   
+684: 
+685:   //VTK::Picking::Exit
+686: 
+687:   g_fragColor.r = g_fragColor.r * in_scale + in_bias * g_fragColor.a;
+688:   g_fragColor.g = g_fragColor.g * in_scale + in_bias * g_fragColor.a;
+689:   g_fragColor.b = g_fragColor.b * in_scale + in_bias * g_fragColor.a;
+690:   fragOutput0 = g_fragColor;
+691: 
+692:   //VTK::RenderToImage::Exit
+693: 
+694:   //VTK::DepthPass::Exit
+695: }
+696: 
+697: //////////////////////////////////////////////////////////////////////////////
+698: ///
+699: /// Main
+700: ///
+701: //////////////////////////////////////////////////////////////////////////////
+702: void main()
+703: {
+704:       
+705:   initializeRayCast();    
+706:   castRay(-1.0, -1.0);    
+707:   finalizeRayCast();
+708: }
+[ERROR][VTK] 17.07.2024 17:01:28 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:454) - ERROR: 0:624: 'dir' : undeclared identifier 
+ERROR: 0:624: 'x' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:625: 'y' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:626: 'u_texture' : undeclared identifier 
+ERROR: 0:626: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:626: 'texture' : function is not known 
+ERROR: 0:627: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:627: 'texture' : function is not known 
+ERROR: 0:628: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:628: 'texture' : function is not known 
+ERROR: 0:629: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:629: 'texture' : function is not known 
+ERROR: 0:630: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:630: 'texture' : function is not known 
+ERROR: 0:631: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:631: 'texture' : function is not known 
+ERROR: 0:632: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:632: 'texture' : function is not known 
+ERROR: 0:633: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:633: 'texture' : function is not known 
+ERROR: 0:634: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:634: 'texture' : function is not known
+[ERROR][VTK] 17.07.2024 17:01:28 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) - Reloading module: PRISMRendering
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) - ------------------------------
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[INFO][Stream] 17.07.2024 17:01:29 [] (unknown:0) -
+[WARNING][Qt] 17.07.2024 17:01:29 [] (unknown:0) - ctkRangeWidget::setSingleStep( 0.01 ) is outside valid bounds
+[ERROR][VTK] 17.07.2024 17:01:29 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:29 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:29 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:438) - 1: #version 150
+2: #ifndef GL_ES
+3: #define highp
+4: #define mediump
+5: #define lowp
+6: #endif // GL_ES
+7: #define attribute in
+8: #define varying out
+9: 
+10: 
+11: /*=========================================================================
+12: 
+13:   Program:   Visualization Toolkit
+14:   Module:    raycastervs.glsl
+15: 
+16:   Copyright (c) Ken Martin, Will Schroeder, Bill Lorensen
+17:   All rights reserved.
+18:   See Copyright.txt or http://www.kitware.com/Copyright.htm for details.
+19: 
+20:      This software is distributed WITHOUT ANY WARRANTY; without even
+21:      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+22:      PURPOSE.  See the above copyright notice for more information.
+23: 
+24: =========================================================================*/
+25: 
+26: /// Needed to enable inverse function
+27: #extension GL_ARB_gpu_shader5 : enable
+28: 
+29: //////////////////////////////////////////////////////////////////////////////
+30: ///
+31: /// Uniforms, attributes, and globals
+32: ///
+33: //////////////////////////////////////////////////////////////////////////////
+34: 
+35: 
+36: uniform vec3 in_cellSpacing[1];
+37: uniform mat4 in_modelViewMatrix;
+38: uniform mat4 in_projectionMatrix;
+39: uniform mat4 in_volumeMatrix[1];
+40: uniform mat4 in_inverseTextureDatasetMatrix[1];
+41: uniform mat4 in_cellToPoint[1];
+42: 
+43: //This variable could be 'invariant varying' but it is declared
+44: //as 'varying' to avoid compiler compatibility issues.
+45: out mat4 ip_inverseTextureDataAdjusted;
+46: 
+47: 
+48: 
+49: 
+50: 
+51: 
+52: 
+53: 
+54: //////////////////////////////////////////////////////////////////////////////
+55: ///
+56: /// Inputs
+57: ///
+58: //////////////////////////////////////////////////////////////////////////////
+59: in vec3 in_vertexPos;
+60: 
+61: //////////////////////////////////////////////////////////////////////////////
+62: ///
+63: /// Outputs
+64: ///
+65: //////////////////////////////////////////////////////////////////////////////
+66: /// 3D texture coordinates for texture lookup in the fragment shader
+67: out vec3 ip_textureCoords;
+68: out vec3 ip_vertexPos;
+69: 
+70: void main()
+71: {
+72:   /// Get clipspace position
+73:     //Transform vertex (data coordinates) to clip coordinates
+74:   // p_clip = T_ProjViewModel * T_dataToWorld * p_data
+75:   vec4 pos = in_projectionMatrix * in_modelViewMatrix * in_volumeMatrix[0] *
+76:     vec4(in_vertexPos.xyz, 1.0);
+77:   gl_Position = pos;
+78: 
+79: 
+80:   /// Compute texture coordinates
+81:     // Transform vertex (data coordinates) to texture coordinates.
+82:   // p_texture = T_dataToTex * p_data
+83:   vec3 uvx = sign(in_cellSpacing[0]) * (in_inverseTextureDatasetMatrix[0] *
+84:   vec4(in_vertexPos, 1.0)).xyz;
+85: 
+86:   // For point dataset, we offset the texture coordinate
+87:   // to account for OpenGL treating voxel at the center of the cell.
+88:   // Transform cell tex-coordinates to point tex-coordinates (cellToPoint
+89:   // is an identity matrix in the case of cell data).
+90:   ip_textureCoords = (in_cellToPoint[0] * vec4(uvx, 1.0)).xyz;
+91:   ip_inverseTextureDataAdjusted = in_cellToPoint[0] * in_inverseTextureDatasetMatrix[0];
+92: 
+93: 
+94:   /// Copy incoming vertex position for the fragment shader
+95:   ip_vertexPos = in_vertexPos;
+96: }
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkShaderProgram (00000156EEA5EF70)] (vtkShaderProgram.cxx:439) -
+[ERROR][VTK] 17.07.2024 17:01:43 [vtkOpenGLGPUVolumeRayCastMapper (00000156E56FBA30)] (vtkOpenGLGPUVolumeRayCastMapper.cxx:2834) - Shader failed to compile
